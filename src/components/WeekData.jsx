@@ -97,16 +97,34 @@ const weekData = [
   {
     week: 36,
     leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
+      oversigt: [
+        "I denne uge har mit fokus været på at skabe interaktive prototyper ved hjælp af Figma som et led i mine UI/UX-studier. Jeg har arbejdet med to hovedtyper af prototyper: klikbare wireframes og high-fidelity prototyper. I processen har jeg opnået en dybere forståelse for, hvordan og hvornår hver type skal anvendes afhængigt af projektets fase og den ønskede brugerinvolvering. Dette gav mig en mere nuanceret viden om, hvordan en prototype kan udvikles fra en simpel, klikbar model til en detaljeret, funktionel version, der afspejler det endelige produkt.",
+        "Jeg har også brugt tiden på at udforske Figma’s værktøjer og funktioner til at skabe mere interaktive elementer i prototypen. Dette har givet mig indblik i, hvordan værktøjet kan anvendes til at simulere brugeroplevelser på et højere niveau. Kurset på Udemy har desuden udvidet min forståelse af prototyping, særligt omkring brugeroplevelsesdesign og teknikker til hurtig iteration.",
+      ],
+      udfordringer: [
+        "En udfordring i denne uge har været at vælge den rigtige prototypetype i forhold til projektets fase og brugernes behov. Dette krævede overvejelser omkring, hvor meget detaljeringsgrad og interaktivitet, der er nødvendigt i projektets nuværende fase. For at løse dette brugte jeg tid på at reflektere over projektets læringsmål og rådførte mig med kurset om prototyping og testing. Denne fremgangsmåde hjalp mig til at træffe beslutningen om først at fokusere på klikbare wireframes for at få en hurtig idé af flow og layout og senere overgå til high-fidelity, når detaljeringsgraden blev nødvendig.",
+        "En anden udfordring opstod med de tekniske aspekter i Figma, specielt ved opsætning af komplekse interaktioner og animationer. Her benyttede jeg Figma’s dokumentation og online tutorials til at afklare, hvordan man bygger flere samtidige interaktioner og samtidig opretholder en intuitiv brugerrejse.",
+      ],
+      refleksion: [
+        "Denne uge har styrket min forståelse af, hvordan klikbare wireframes og high-fidelity prototyper kan understøtte forskellige dele af designprocessen. Jeg har erfaret, at klikbare wireframes er ideelle til at eksperimentere med flow og struktur, mens high-fidelity prototyper bedst bruges til test og finjustering af det visuelle udtryk og funktionalitet. Desuden har jeg bemærket, at arbejdet med interaktive prototyper forbedrer min evne til at kommunikere idéer klart til teammedlemmer og brugere, hvilket er en værdifuld kompetence i designprojekter.",
+      ],
+      planForNaesteUge: [
+        "Næste uge vil jeg starte med UI Design Patterns og prøve at udplukke nogle designmønstre, som jeg skal implementere i praksis. Jeg vil starte med at undersøge gængse navigations- og interaktionsmønstre og deres betydning for brugeroplevelsen og derefter udvikle nogle prototyper for at eksperimentere. Prototyperne udvikles i Figma eller Framer, og jeg vil dokumentere processen med inspiration fra udvalgte ressourcer, herunder artikler og kurser, for at sikre en systematisk tilgang.",
+      ],
+      loesteOpgaver: [
+        "Opret en interaktiv prototype af dit projekt i Figma eller Adobe XD.",
+      ],
     },
     rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
+      viden: [
+        "Denne uges opgaver har været målrettet mod at opfylde de kortsigtede læringsmål inden for Viden, Færdigheder og Kompetencer. Ved at skabe interaktive prototyper i Figma har jeg opnået en dybere forståelse for forskellen mellem klikbare wireframes og high-fidelity prototyper og deres anvendelse i forskellige faser af designprocessen. Det har hjulpet mig med at identificere, hvornår det er mest hensigtsmæssigt at bruge hver type prototype til at understøtte kommunikationen med brugere og interessenter – et centralt element i målet om viden.",
+      ],
+      faerdigheder: [
+        "I forhold til Færdigheder har jeg arbejdet aktivt med Figma til at skabe klikbare prototyper, der simulerer både layout og funktionalitet. Dette har udviklet min evne til at skabe realistiske prototyper og tilladt mig at eksperimentere med forskellige interaktioner. Jeg har også dygtiggjort mig i at bruge Figma til at skabe mere komplekse brugerflows, hvilket direkte afspejler målet om at kunne anvende værktøjet til interaktive og klikbare prototyper.",
+      ],
+      kompetencer: [
+        "For Kompetencer har ugens opgaver hjulpet mig til at træffe velovervejede beslutninger om prototypetype, afhængigt af projektets fase og behov for brugerinvolvering. Dette har styrket min evne til at arbejde selvstændigt og vælge den rette prototypeform til at støtte designprocessen, hvilket var et vigtigt mål. Jeg har opdaget, at det kan gøre en stor forskel for brugerfeedback og projektets fremdrift, når prototypen er tilpasset det specifikke formål og niveau af brugerinvolvering, som projektet kræver.",
+      ],
     },
   },
   {
