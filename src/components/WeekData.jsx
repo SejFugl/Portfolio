@@ -20,11 +20,11 @@ const weekData = [
   {
     week: 34,
     leftSide: {
-      oversigt: ["test2"],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
+      oversigt: ["I denne uge har jeg primært arbejdet på at udvikle og visualisere User Flows for de centrale interaktioner i mit projekt, såsom registrering, login, booking og checkout-processen. Ved hjælp af værktøjer som Figma og Miro har jeg struktureret og illustreret de vigtigste brugerrejser i applikationen, hvilket har givet et klart billede af, hvordan brugerne forventes at navigere. Desuden har jeg opdelt de mere komplekse flows i sektioner, hvilket har hjulpet med at organisere de forskellige trin og interaktioner i projektet."],
+      udfordringer: ["En udfordring var at sikre, at alle mulige interaktioner og forgreninger i User Flows blev korrekt indarbejdet, især for de komplekse dele som booking og checkout. Materialer som The User Experience Team of One og artiklen fra NNGroup gav værdifuld vejledning i, hvordan man strukturerer og dokumenterer User Flows effektivt."],
+      refleksion: ["Denne uge har styrket min forståelse af, hvordan User Flows kan forbedre brugeroplevelsen ved at synliggøre og optimere navigationsvejene. Gennem arbejdet med User Flows har jeg opdaget, hvor vigtigt det er at have en struktureret tilgang, der sikrer en logisk og brugervenlig opbygning af applikationen. At opdele komplekse flows i sektioner har gjort det nemmere at få overblik over brugerrejsen og identificere specifikke områder, hvor brugeroplevelsen kan forbedres."],
+      planForNaesteUge: ["Næste uge planlægger jeg at fokusere på at udvikle mere detaljerede wireframes og begynde at integrere dem i prototyper. Jeg vil fortsætte med at bruge User Flows som grundlag for den interaktive funktionalitet og arbejde på at iterere over designet baseret på feedback. Målet er at skabe en sammenhængende oplevelse, der sikrer, at navigationen gennem applikationen er intuitiv og problemfri."],
+      loesteOpgaver: ["Lav User Flows for de vigtigste interaktioner i dit projekt. Opret f.eks. flows for registrering, login, booking, og checkout-processen. Sørg for at inkludere alle potentielle interaktionstrin."],
     },
     rightSide: {
       viden: ["", ""],
