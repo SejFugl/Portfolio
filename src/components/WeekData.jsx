@@ -130,16 +130,34 @@ const weekData = [
   {
     week: 37,
     leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
+      oversigt: [
+        "I denne uge har jeg fokuseret på at forstå og anvende UI design patterns for at skabe konsistens og forbedre brugeroplevelsen i mit projekt. Jeg har lært om forskellige navigations- og interaktionsmønstre, såsom Hamburger-Menu, Clear Primary Actions, Card Layout, og Sticky Navigation. Derudover har jeg arbejdet med wireframes og prototyper i Figma, hvor jeg integrerede mindst tre udvalgte design patterns fra min research. Dette har givet mig en praktisk forståelse af, hvordan disse mønstre kan bruges til at løse specifikke usability-problemer.",
+        "Jeg har også gennemgået artikler og online kurser for at uddybe min forståelse af, hvordan design patterns kan implementeres effektivt i digitale brugergrænseflader.",
+      ],
+      udfordringer: [
+        "En udfordring denne uge var at vælge de mest passende design patterns til projektet, da der findes mange muligheder, der alle adresserer forskellige usability-problemer. Det var særligt svært at navigere mellem mønstre som Clear Primary Actions og Card Layout. Jeg løste dette ved at analysere projektets kontekst, hvilket hjalp mig med at prioritere mønstre, der bedst reducerede kognitiv belastning og guidede brugeren effektivt gennem grænsefladen.",
+      ],
+      refleksion: [
+        "Denne uge har været meget lærerig, da jeg har fået en dybere indsigt i, hvordan design patterns kan anvendes strategisk for at forbedre brugeroplevelsen. Jeg har især værdsat den strukturerede tilgang, som UI design patterns tilbyder, og hvordan de kan spare tid og sikre konsistens. Derudover har det været en øjenåbner at se, hvordan visuelle og interaktive elementer som Clear Primary Actions og Card Layout kan bruges til at engagere brugerne.",
+        "Jeg har også fået en større forståelse for balancen mellem at anvende etablerede mønstre og at tilpasse dem til konteksten, så de passer til brugernes forventninger og behov.",
+      ],
+      planForNaesteUge: [
+        "Næste uge vil jeg fokusere på at opbygge et grundlæggende designsystem for mit projekt, hvor jeg arbejder med farveteori, typografi og oprettelse af ikoner og billedressourcer. Jeg vil oprette en simpel, men konsistent stilguide, der inkluderer farvepaletter, typografi og standardkomponenter som knapper og formularer. For at holde styr på disse designressourcer vil jeg opbygge et designbibliotek i Figma, som hjælper mig med at strukturere og anvende elementerne effektivt. Jeg vil desuden studere Material Design og Human Interface Guidelines for at få inspiration til designprincipper, samt læse om branding og visuel identitet fra en selvvalgt bog Designing Brand Identity.",
+      ],
+      loesteOpgaver: [
+        "Design nogle wireframes eller en prototype til jeres semesterprojekt og implementer 3-5 nøje udvalgte UI design patterns - tag evt. Inspiration fra https://ui-patterns.com/",
+      ],
     },
     rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
+      viden: [
+        "I denne uge har jeg arbejdet med at designe wireframes og prototyper til semesterprojektet ved at anvende 3-5 nøje udvalgte UI design patterns. Dette arbejde gav mig en dybere forståelse for, hvordan design patterns kan forbedre konsistens og brugervenlighed i digitale brugergrænseflader. ",
+      ],
+      faerdigheder: [
+        "Ved at implementere navigationsmønstre som Hamburger-menu og Sticky Navigation i mine prototyper opnåede jeg en større indsigt i deres fordele og ulemper, især i forhold til forskellige brugsscenarier. Jeg udforskede også interaktionsmønstre som Clear Primary Actions og Card Layout, hvilket gav mig en bedre forståelse af, hvordan disse påvirker brugeroplevelsen og tilføjer dynamik til interfacet.",
+      ],
+      kompetencer: [
+        "Gennem opgaverne har jeg opfyldt læringsmålene ved at identificere passende design patterns, implementere dem i Figma og dokumentere deres brug. Dette har styrket mine færdigheder i at designe og evaluere digitale brugeroplevelser. Samtidig har jeg arbejdet tæt sammen med mit team for at iterere på designløsningerne, hvilket har forbedret vores samarbejdsevne og sikret en mere gennemarbejdet og konsistent prototype. Denne proces har gjort det muligt for mig at kritisk vurdere og forbedre designet ved at integrere etablerede principper for brugervenlighed og design patterns.",
+      ],
     },
   },
   {
