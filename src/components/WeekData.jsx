@@ -163,31 +163,63 @@ const weekData = [
   {
     week: 38,
     leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
+      oversigt: [
+        "I denne uge har jeg fokuseret på at opbygge et fundament i farveteori og typografi samt lære om etablerede designsystemer som Material Design og Human Interface Guidelines. Målet var at skabe et konsistent designsystem, der omfatter farvepaletter, typografi og standardkomponenter som knapper og formularer. Jeg brugte tid på at læse Designing Brand Identity af Alina Wheeler og artikler om Material Design Guidelines og farveteori for designere, hvilket gav mig en grundlæggende forståelse af, hvordan disse elementer kan påvirke brugeroplevelsen.",
+      ],
+      udfordringer: [
+        "En af de største udfordringer var at anvende farveteori til at skabe en balanceret farvepalet, der både understøtter visuel identitet og differentierer de enkelte elementer i designet. Jeg løste dette ved at anvende primære og sekundære farver samt komplementære farver, hvilket sikrede både kontrast og harmoni. Desuden oplevede jeg udfordringer med at finde passende typografier, der både er læsbare og understøtter det visuelle hierarki. Jeg brugte tid i Figma på at teste forskellige skrifttyper og hierarkier, hvilket hjalp mig med at skabe et klart og læsbart design.",
+      ],
+      refleksion: [
+        "Denne uge har givet mig en stærkere forståelse af, hvordan farve og typografi kan påvirke brugernes opfattelse af et design. Ved at arbejde med Material Design Guidelines har jeg set, hvordan etablerede systemer kan skabe et ensartet udtryk på tværs af platforme. Desuden har det været værdifuldt at arbejde med Figma, som gjorde det muligt at oprette og dokumentere de designkomponenter, jeg har udviklet. Denne proces har vist mig betydningen af at skabe en sammenhængende og genanvendelig designstruktur, som kan tilpasses forskellige behov.",
+      ],
+      planForNaesteUge: [
+        "Næste uge vil jeg fokusere på at lære de grundlæggende principper for UI-animationer, særligt micro-interactions, for at forbedre brugeroplevelsen gennem små, men effektfulde interaktioner som hover-effekter og transitions. Jeg vil bruge værktøjer som Framer eller Principle til at designe og implementere disse micro-interactions i min prototype og dokumentere dem i Figma eller Framer. For at støtte min læring vil jeg læse Microinteractions: Designing with Details af Dan Saffer og gennemgå artiklen UX Design: Microinteractions – The Secret of Great UX for at forstå, hvordan små detaljer kan have en stor indvirkning på det samlede design.",
+      ],
+      loesteOpgaver: [
+        "Opret et simpelt designsystem for dit projekt, inklusive farvepaletter, typografi, og standardkomponenter som knapper og forms.",
+      ],
     },
     rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
+      viden: [
+        "Ved at arbejde med farveteori og typografi har jeg opfyldt læringsmålene under Viden ved at få en dybere forståelse for, hvordan farver kan påvirke brugeroplevelser og skabe den rette stemning i digitale brugergrænseflader. Gennem oprettelsen af en farvepalet har jeg direkte arbejdet med kontrast, komplementære farver og de visuelle aspekter, som styrker genkendeligheden i mit designsystem. Samtidig har jeg fået indsigt i, hvordan typografiens rolle – herunder valg af skrifttyper, teksthierarki og læsbarhed – bidrager til at skabe en klar og professionel visuel identitet.",
+      ],
+      faerdigheder: [
+        "I forhold til Færdigheder har jeg anvendt Figma til at oprette og dokumentere designkomponenter, hvilket har gjort mit design mere struktureret og ensartet. Jeg har oprettet knapper, formularer og UI-elementer, som alle er bygget ud fra farve- og typografivalg, der sikrer en tydelig hierarkisk opbygning og optimal læsbarhed. Denne proces har også gjort det muligt at skabe et fleksibelt system, som kan genbruges på tværs af forskellige sider i projektet, hvilket styrker designets brugervenlighed.",
+      ],
+      kompetencer: [
+        "Under Kompetencer har jeg arbejdet på at skabe konsistens i farver, typografi og komponenter, hvilket sikrer et sammenhængende visuelt udtryk. Ved at følge Material Design Guidelines har jeg analyseret og anvendt retningslinjer, der understøtter udviklingen af et brugervenligt og visuelt tiltalende designsystem. Derudover har jeg integreret ikoner og billeder i projektet, der både styrker brugeroplevelsen og understøtter brandets visuelle identitet. Dette har været vigtigt for at sikre, at designet ikke blot er funktionelt, men også æstetisk tiltalende og i tråd med brandets værdier og identitet.",
+      ],
     },
   },
   {
     week: 39,
     leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
+      oversigt: [
+        "I denne uge har jeg primært fokuseret på micro-interactions og deres betydning for brugeroplevelsen i UI-design. Jeg har dykket ned i kapitlerne fra Microinteractions: Designing with Details og artiklen Microinteractions: The Secret Sauce of Exceptional UI/UX Design, hvor jeg har lært, hvordan micro-interactions kan forbedre brugeroplevelsen ved at skabe intuitiv navigation, give visuel feedback og tilføre en menneskelig dimension til interfacet. Derudover har jeg anvendt Framer og Principle til at eksperimentere med simple animationer som hover-effekter, transitions og loaders.",
+      ],
+      udfordringer: [
+        "En udfordring i denne uge har været at finde den rette balance mellem effektivitet og æstetik i animationerne. Specielt kapitlerne om Rules og Feedback påpegede vigtigheden af at skabe simple og forståelige regler, der ikke overvælder brugeren, samt at bruge feedback som en subtil metode til at guide brugeren​. I mit arbejde med animationsværktøjerne oplevede jeg vanskeligheder ved at justere timing og easing, så animationerne forblev naturlige og ikke distraherede. Ved at justere animationsparametrene i Framer og bruge de anbefalede feedback-principper lykkedes det mig at skabe en mere harmonisk oplevelse for brugeren.",
+      ],
+      refleksion: [
+        "Denne uge har givet mig en dybere forståelse for, hvordan små detaljer i micro-interactions kan have en stor effekt på brugeroplevelsen. Jeg blev især inspireret af ideen om The Long Wow fra kapitlet om Loops and Modes, hvor micro-interactions over tid kan skabe brugerloyalitet ved at tilpasse sig brugerens erfaring og forventninger​. Jeg har også set vigtigheden af at skabe konsistente micro-interactions, da det gør brugeroplevelsen forudsigelig og intuitiv, hvilket reducerer den kognitive belastning for brugeren.",
+      ],
+      planForNaesteUge: [
+        "Næste uge vil fokus være på at sikre, at mit design er både tilgængeligt og responsivt. Jeg vil dykke ned i WCAG-retningslinjerne for at forstå kravene til tilgængelighed og anvende disse på mit design, så det er brugervenligt for alle brugere. Derudover vil jeg arbejde med responsive designprincipper, herunder breakpoints, for at sikre, at indholdet fungerer optimalt på forskellige skærmstørrelser. Jeg planlægger at teste mit design med værktøjer som Lighthouse og Wave for at vurdere tilgængelighed og ydeevne og vil anvende ressourcer som kapitel 6 i Don’t Make Me Think og WCAG 2.1 Guidelines til at styrke min forståelse og implementering af tilgængeligheds- og responsivitetselementer i designet.",
+      ],
+      loesteOpgaver: [
+        "Design og implementer micro-interactions (f.eks. hover-effekter, transitions) i din prototype.",
+      ],
     },
     rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
+      viden: [
+        "Denne uge har arbejdet med micro-interactions givet mig konkrete indsigter og færdigheder, der bringer mig tættere på de opstillede læringsmål. Gennem min forståelse af, hvordan micro-interactions forbedrer brugeroplevelsen ved at give visuel feedback og skabe intuitiv navigation, har jeg opnået en større bevidsthed om deres betydning i UI-design, hvilket opfylder målene under Viden. Jeg har også lært at anvende grundlæggende principper for animationer – timing, easing og varighed – til at skabe naturlige og effektive overgange, som det er beskrevet i læringsmålene​.",
+      ],
+      faerdigheder: [
+        "I forhold til Færdigheder har jeg anvendt Framer og Principle til at designe og implementere forskellige typer af micro-interactions, herunder hover-effekter og transitions. Ved at justere animationsparametrene og eksperimentere med responsive indstillinger har jeg forbedret min evne til at skabe dynamiske UI-animationer, der styrker brugeroplevelsen uden at forstyrre funktionaliteten. Denne praktiske anvendelse af animationsværktøjer har gjort mig i stand til at evaluere og justere detaljerne, så animationerne tilpasser sig skærmstørrelser og enheder – et centralt element i læringsmålene for færdigheder.",
+      ],
+      kompetencer: [
+        "På kompetenceniveauet har mit arbejde med at implementere micro-interactions vist, hvordan disse små interaktioner strategisk kan understøtte brugerrejsen gennem applikationen. Jeg har også analyseret de anvendte animationer ud fra brugerfeedback og optimeret deres effekt for at sikre en bedre interaktion. Denne erfaring har styrket min evne til at kombinere værktøjer og teknikker for at opnå en sammenhængende brugeroplevelse, hvor micro-interactions spiller en vigtig rolle. Ved at iterere på animationernes design og integration har jeg således opnået en dybere forståelse og opfyldt læringsmålene under kompetencerne.",
+      ],
     },
   },
   {
