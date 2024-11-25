@@ -2,55 +2,75 @@ import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import SketchBrancher from "/src/assets/Uge_1/Sketch_ Brancher.png";
+import SketchFooter from "/src/assets/Uge_1/Sketch_ Footer.png";
+import SketchFunktioner from "/src/assets/Uge_1/Sketch_ Funktioner.png";
+import SketchLogud from "/src/assets/Uge_1/Sketch_ Logud.png";
+import SketchOmOs from "/src/assets/Uge_1/Sketch_ Om os.png";
+import SketchOmOs2 from "/src/assets/Uge_1/Sketch_ Om os 2.png";
+import SketchPriser from "/src/assets/Uge_1/Sketch_ Priser.png";
+import SketchRegistrering from "/src/assets/Uge_1/Sketch_ Registrering af bruger og forretning.png";
+import SketchSogningDato from "/src/assets/Uge_1/Sketch_ Søgning af dato.png";
+import BookingFlowChart from "/src/assets/Uge_2/Flow-charts for Booking-projekt - Booking-flow.jpg";
+import LoginFlowChart from "/src/assets/Uge_2/Flow-charts for Booking-projekt - Login-flow.jpg";
+import RegistrationFlowChart from "/src/assets/Uge_2/Flow-charts for Booking-projekt - Registrering-flow.jpg";
+import CalendarGammel from "/src/assets/Uge_3/Calendar Gammel.png";
+import Hjem from "/src/assets/Uge_3/Hjem.png";
+import Image2 from "/src/assets/Uge_3/image 2.png";
+import Login from "/src/assets/Uge_3/Login.png";
+import RegisterGammel2 from "/src/assets/Uge_3/Register Gammel 2.png";
+import RegisterGammel from "/src/assets/Uge_3/Register Gammel.png";
+import Register from "/src/assets/Uge_3/Register.png";
+import RegistreringBrugerForretning2 from "/src/assets/Uge_3/Registrering af bruger og forretning 2.0.png";
+import RegistreringBrugerForretningGammel2 from "/src/assets/Uge_3/Registrering af bruger og forretning Gammel 2.png";
+import RegistreringBrugerForretningGammel3 from "/src/assets/Uge_3/Registrering af bruger og forretning Gammel 3.png";
+import RegistreringBrugerForretningGammel from "/src/assets/Uge_3/Registrering af bruger og forretning Gammel.png";
+import RegistreringBrugerForretning from "/src/assets/Uge_3/Registrering af bruger og forretning.png";
+import Sitemap from "/src/assets/Uge_3/Sitemap.png";
+import ColorPalette from "/src/assets/Uge_6/Color Palette.png";
+import InterFont from "/src/assets/Uge_6/Inter.png";
+import SourceSansProFont from "/src/assets/Uge_6/Source Sans Pro.png";
 
 const weekData = [
   {
     week: 33,
     images: [
-      "/src/assets/Uge_1/Sketch_ Brancher.png",
-      "/src/assets/Uge_1/Sketch_ Footer.png",
-      "/src/assets/Uge_1/Sketch_ Funktioner.png",
-      "/src/assets/Uge_1/Sketch_ Logud.png",
-      "/src/assets/Uge_1/Sketch_ Om os.png",
-      "/src/assets/Uge_1/Sketch_ Om os 2.png",
-      "/src/assets/Uge_1/Sketch_ Priser.png",
-      "/src/assets/Uge_1/Sketch_ Registrering af bruger og forretning.png",
-      "/src/assets/Uge_1/Sketch_ Søgning af dato.png",
+      SketchBrancher,
+      SketchFooter,
+      SketchFunktioner,
+      SketchLogud,
+      SketchOmOs,
+      SketchOmOs2,
+      SketchPriser,
+      SketchRegistrering,
+      SketchSogningDato,
     ],
   },
   {
     week: 34,
-    images: [
-      "/src/assets/Uge_2/Flow-charts for Booking-projekt - Booking-flow.jpg",
-      "/src/assets/Uge_2/Flow-charts for Booking-projekt - Login-flow.jpg",
-      "/src/assets/Uge_2/Flow-charts for Booking-projekt - Registrering-flow.jpg",
-    ],
+    images: [BookingFlowChart, LoginFlowChart, RegistrationFlowChart],
   },
   {
     week: 35,
     images: [
-      "src/assets/Uge_3/Calendar Gammel.png",
-      "src/assets/Uge_3/Hjem.png",
-      "src/assets/Uge_3/image 2.png",
-      "src/assets/Uge_3/Login.png",
-      "src/assets/Uge_3/Register Gammel 2.png",
-      "src/assets/Uge_3/Register Gammel.png",
-      "src/assets/Uge_3/Register.png",
-      "src/assets/Uge_3/Registrering af bruger og forretning 2.0.png",
-      "src/assets/Uge_3/Registrering af bruger og forretning Gammel 2.png",
-      "src/assets/Uge_3/Registrering af bruger og forretning Gammel 3.png",
-      "src/assets/Uge_3/Registrering af bruger og forretning Gammel.png",
-      "src/assets/Uge_3/Registrering af bruger og forretning.png",
-      "src/assets/Uge_3/Sitemap.png",
+      CalendarGammel,
+      Hjem,
+      Image2,
+      Login,
+      RegisterGammel2,
+      RegisterGammel,
+      Register,
+      RegistreringBrugerForretning2,
+      RegistreringBrugerForretningGammel2,
+      RegistreringBrugerForretningGammel3,
+      RegistreringBrugerForretningGammel,
+      RegistreringBrugerForretning,
+      Sitemap,
     ],
   },
   {
     week: 38,
-    images: [
-      "src/assets/Uge_6/Color Palette.png",
-      "src/assets/Uge_6/Inter.png",
-      "src/assets/Uge_6/Source Sans Pro.png",
-    ],
+    images: [ColorPalette, InterFont, SourceSansProFont],
   },
 ];
 
