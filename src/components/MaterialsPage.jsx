@@ -5,7 +5,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const weekData = [
   {
-    week: 1,
+    week: 33,
     images: [
       "/src/assets/Uge_1/Sketch_ Brancher.png",
       "/src/assets/Uge_1/Sketch_ Footer.png",
@@ -19,7 +19,7 @@ const weekData = [
     ],
   },
   {
-    week: 2,
+    week: 34,
     images: [
       "/src/assets/Uge_2/Flow-charts for Booking-projekt - Booking-flow.jpg",
       "/src/assets/Uge_2/Flow-charts for Booking-projekt - Login-flow.jpg",
@@ -27,7 +27,7 @@ const weekData = [
     ],
   },
   {
-    week: 3,
+    week: 35,
     images: [
       "src/assets/Uge_3/Calendar Gammel.png",
       "src/assets/Uge_3/Hjem.png",
@@ -45,7 +45,7 @@ const weekData = [
     ],
   },
   {
-    week: 6,
+    week: 38,
     images: [
       "src/assets/Uge_6/Color Palette.png",
       "src/assets/Uge_6/Inter.png",
