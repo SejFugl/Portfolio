@@ -225,16 +225,32 @@ const weekData = [
   {
     week: 40,
     leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
+      oversigt: [
+        "Denne uge har fokuseret på WCAG 2.1-retningslinjerne, responsivt design og brugen af værktøjer til at teste tilgængelighed og performance i webdesign. Forståelsen af WCAG 2.1 retningslinjer blev især styrket ved at arbejde med specifikke krav, som tekstalternativer og visuel kontrast. Derudover har jeg anvendt CSS breakpoints for at sikre, at designet tilpasser sig forskelligt til alle skærmstørrelser. I praksis har jeg testet med Lighthouse og Wave til at evaluere og optimere performance og tilgængelighed af mine prototyper, hvilket gav indsigt i, hvordan mindre ændringer kan forbedre tilgængeligheden væsentligt.",
+      ],
+      udfordringer: [
+        "En udfordring denne uge var at implementere WCAG-principperne uden at kompromittere designets visuelle æstetik. I begyndelsen var det vanskeligt at finde en god balance mellem tilgængelighed og design, især med farvekontraster og visuelle elementer. Jeg løste dette ved at bruge kontrastværktøjer og tilpasse farveskemaet, så det opfylder de nødvendige standarder. En anden udfordring var at håndtere kompleksiteten af responsive designs, især for små skærmstørrelser, hvor indholdet skulle reorganiseres for at sikre brugervenlighed. Her brugte jeg breakpoints mere strategisk og justerede layoutet efter skærmstørrelse.",
+      ],
+      refleksion: [
+        "Denne uge har vist, hvor vigtigt det er at forstå WCAG 2.1-retningslinjerne og responsivt design i dybden, hvis man ønsker at skabe universelt tilgængelige og brugervenlige websites. Arbejdet med tilgængelighed kræver detaljeret indsigt og systematiske tests for at sikre, at alle brugere får en god oplevelse. Jeg er blevet mere bevidst om de lavthængende frugter i tilgængelighed, som ALT-tekst og fokusmarkering, og hvordan små justeringer kan have en stor effekt på brugeroplevelsen. Det har også været oplysende at se, hvordan responsivt design kan skabe en mere flydende oplevelse på tværs af enheder.",
+      ],
+      planForNaesteUge: [
+        "Starte for alvor på 2. valgfag, Webudvikling - React, for den resterende halvdel af 4. semester",
+      ],
+      loesteOpgaver: [
+        "Test og tilpas dit design for at sikre, at det er tilgængeligt og responsivt.",
+      ],
     },
     rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
+      viden: [
+        "Under Viden har jeg fået dybere indsigt i WCAG 2.1, og jeg har forstået, hvordan disse retningslinjer kan implementeres for at sikre tilgængelighed for forskellige brugergrupper. Ved at arbejde med værktøjer som Lighthouse og Wave har jeg konkret styrket min forståelse af, hvordan tilgængelighedsstandarder og performance testes og optimeres direkte i browseren. Desuden har jeg anvendt breakpoints til at designe responsivt, hvilket var afgørende for at sikre god brugervenlighed på tværs af forskellige skærmstørrelser.",
+      ],
+      faerdigheder: [
+        "For Færdigheder har jeg brugt WCAG-principperne aktivt til at evaluere og justere mine designs. Jeg har fokuseret på at skabe et responsivt layout ved hjælp af CSS breakpoints, hvilket har gjort mit indhold mere tilgængeligt og brugbart på små skærme, og dette har givet mig praktisk erfaring med breakpoints og responsivt design. Testene med Lighthouse og Wave gav desuden indsigt i performanceforbedringer, og jeg kunne løbende optimere designet, så det lever op til de fastsatte standarder.",
+      ],
+      kompetencer: [
+        "Inden for Kompetencer har jeg anvendt tilgængeligheds- og responsivitetsprincipper på en måde, der gjorde det muligt at tilpasse mit design til forskellige enheder uden at gå på kompromis med tilgængelighed. Dette har styrket min evne til kritisk at vurdere og tilpasse designet, så det overholder WCAG 2.1-standarderne, og jeg har aktivt løst problemer som visuel kontrast og tastaturnavigation i designet. Samlet set har denne uge givet mig både praktisk og teoretisk erfaring med WCAG 2.1, hvilket har ført til, at jeg opfylder ugens kortsigtede læringsmål gennem de opgaver, jeg har arbejdet med.",
+      ],
     },
   },
   {
