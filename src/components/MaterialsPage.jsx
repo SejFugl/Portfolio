@@ -2,36 +2,56 @@ import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import portrait from "/src/assets/portrait.png";
 
 const weekData = [
   {
     week: 1,
     images: [
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
+      "/src/assets/Uge_1/Sketch_ Brancher.png",
+      "/src/assets/Uge_1/Sketch_ Footer.png",
+      "/src/assets/Uge_1/Sketch_ Funktioner.png",
+      "/src/assets/Uge_1/Sketch_ Logud.png",
+      "/src/assets/Uge_1/Sketch_ Om os.png",
+      "/src/assets/Uge_1/Sketch_ Om os 2.png",
+      "/src/assets/Uge_1/Sketch_ Priser.png",
+      "/src/assets/Uge_1/Sketch_ Registrering af bruger og forretning.png",
+      "/src/assets/Uge_1/Sketch_ Søgning af dato.png",
     ],
   },
   {
     week: 2,
     images: [
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
-      "/src/assets/portrait.png",
+      "/src/assets/Uge_2/Flow-charts for Booking-projekt - Booking-flow.jpg",
+      "/src/assets/Uge_2/Flow-charts for Booking-projekt - Login-flow.jpg",
+      "/src/assets/Uge_2/Flow-charts for Booking-projekt - Registrering-flow.jpg",
     ],
   },
-  // Add more weeks as needed
+  {
+    week: 3,
+    images: [
+      "src/assets/Uge_3/Calendar Gammel.png",
+      "src/assets/Uge_3/Hjem.png",
+      "src/assets/Uge_3/image 2.png",
+      "src/assets/Uge_3/Login.png",
+      "src/assets/Uge_3/Register Gammel 2.png",
+      "src/assets/Uge_3/Register Gammel.png",
+      "src/assets/Uge_3/Register.png",
+      "src/assets/Uge_3/Registrering af bruger og forretning 2.0.png",
+      "src/assets/Uge_3/Registrering af bruger og forretning Gammel 2.png",
+      "src/assets/Uge_3/Registrering af bruger og forretning Gammel 3.png",
+      "src/assets/Uge_3/Registrering af bruger og forretning Gammel.png",
+      "src/assets/Uge_3/Registrering af bruger og forretning.png",
+      "src/assets/Uge_3/Sitemap.png",
+    ],
+  },
+  {
+    week: 6,
+    images: [
+      "src/assets/Uge_6/Color Palette.png",
+      "src/assets/Uge_6/Inter.png",
+      "src/assets/Uge_6/Source Sans Pro.png",
+    ],
+  },
 ];
 
 const imageVariants = {
