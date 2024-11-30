@@ -8,7 +8,7 @@ const bulletPointVariants = {
 const Section = ({ title, items }) => (
   <div className="mb-6">
     <h3 className="text-xl font-semibold mb-2">{title}</h3>
-    <ul className="list-disc pl-5 space-y-2">
+    <ul className="list-disc pl-5 space-y-4">
       {items.map((item, index) => (
         <motion.li
           key={index}
@@ -52,18 +52,18 @@ export default function LearningGoalsPage() {
       "Viden om praksis og centralt anvendt teori inden for brugercentreret design og anvendelsen af UX-principper.",
       "Viden om de psykologiske og kulturelle faktorer, der påvirker brugeroplevelser og interaktion med digitale grænseflader.",
       "Forståelse for principperne bag visuel hierarki, typografi, farveteori og layout i UI-design.",
-      "Viden om designprocesser som wireframing, prototyping og brugertest.",
+      "Viden om designprocesser som sketching, wireframing og prototyping.",
     ],
     faerdigheder: [
       "Anvende centrale redskaber og metoder til at udvikle brugervenlige grænseflader, herunder designsoftware som Figma, Adobe XD eller Sketch.",
-      "Udføre brugerundersøgelser og analysere resultaterne for at optimere brugeroplevelsen i digitale produkter.",
-      "Designe og implementere interaktive prototyper, der kan testes og valideres med brugere.",
+      "Udføre eksperimenter og analysere resultaterne for at optimere brugeroplevelsen i digitale produkter.",
+      "Designe og implementere interaktive prototyper, der kan testes og valideres med eksperimentering.",
       "Vurdere og anvende aktuelle UI/UX trends og best practices i design af digitale grænseflader.",
       "Anvende responsivt design for at sikre, at brugeroplevelsen er konsistent på tværs af forskellige enheder og skærmstørrelser.",
     ],
     kompetencer: [
       "Deltage aktivt i tværfaglige teams og samarbejde med udviklere, grafiske designere og andre interessenter om at skabe intuitive og effektive brugergrænseflader.",
-      "Kritisk evaluere og forbedre eksisterende UI/UX-designs baseret på brugerfeedback og data.",
+      "Kritisk evaluere og forbedre eksisterende UI/UX-designs baseret på feedbacksessioner og eksperimenter.",
       "I en struktureret sammenhæng tilegne sig ny viden, færdigheder og kompetencer inden for UI/UX for at kunne tilpasse sig den hurtigt udviklende teknologiske og designmæssige verden.",
       "Bidrage til at sikre, at designet af digitale produkter er intuitivt og engagerende, hvilket skaber en positiv og sammenhængende brugeroplevelse, der imødekommer forskellige brugeres behov og præferencer.",
     ],

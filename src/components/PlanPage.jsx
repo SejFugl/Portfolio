@@ -11,7 +11,7 @@ const bulletPointVariants = {
 const Section = ({ title, items }) => (
   <div className="mb-6">
     <h3 className="text-xl font-semibold mb-2">{title}</h3>
-    <ul className="list-disc pl-5 space-y-2">
+    <ul className="list-disc pl-5 space-y-4">
       {items.map((item, index) => (
         <motion.li
           key={index}
