@@ -42,7 +42,7 @@ export default function ResourcesPage() {
               variants={bulletPointVariants}
               initial="hidden"
               animate="visible"
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              transition={{ duration: 0.5, delay: index * 0.25 }}
             >
               {resource}
             </motion.li>
