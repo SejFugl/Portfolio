@@ -36,16 +36,16 @@ const weekData = [
     week: 34,
     leftSide: {
       oversigt: [
-        "I denne uge har jeg primært arbejdet på at udvikle og visualisere User Flows for de centrale interaktioner i mit projekt, såsom registrering, login, booking og checkout-processen. Ved hjælp af værktøjer som Figma og Miro har jeg struktureret og illustreret de vigtigste brugerrejser i applikationen, hvilket har givet et klart billede af, hvordan brugerne forventes at navigere. Desuden har jeg opdelt de mere komplekse flows i sektioner, hvilket har hjulpet med at organisere de forskellige trin og interaktioner i projektet.",
+        "I denne uge har jeg primært arbejdet på at udvikle og visualisere User Flows for de centrale interaktioner i mit projekt, såsom registrering, login og booking-processen. Ved hjælp af værktøjer som Figma og Miro har jeg struktureret og illustreret de vigtigste brugerrejser i applikationen, hvilket har givet et klart billede af, hvordan brugerne forventes at navigere. Desuden har jeg opdelt de mere komplekse flows i sektioner, hvilket har hjulpet med at organisere de forskellige trin og interaktioner i projektet.",
       ],
       udfordringer: [
-        "En udfordring var at sikre, at alle mulige interaktioner og forgreninger i User Flows blev korrekt indarbejdet, især for de komplekse dele som booking og checkout. Materialer som The User Experience Team of One og artiklen fra CareerFoundry gav værdifuld vejledning i, hvordan man strukturerer og dokumenterer User Flows effektivt.",
+        "En udfordring var at sikre, at alle mulige interaktioner mine i User Flows blev korrekt indarbejdet, især for de komplekse dele som booking. Materialer som The User Experience Team of One og artiklen fra CareerFoundry gav værdifuld vejledning i, hvordan man strukturerer og dokumenterer User Flows effektivt.",
       ],
       refleksion: [
-        "Denne uge har styrket min forståelse af, hvordan User Flows kan forbedre brugeroplevelsen ved at synliggøre og optimere navigationsvejene. Gennem arbejdet med User Flows har jeg opdaget, hvor vigtigt det er at have en struktureret tilgang, der sikrer en logisk og brugervenlig opbygning af applikationen. At opdele komplekse flows i sektioner har gjort det nemmere at få overblik over brugerrejsen og identificere specifikke områder, hvor brugeroplevelsen kan forbedres.",
+        "Denne uge har styrket min forståelse af, hvordan User Flows kan forbedre brugeroplevelsen ved at synliggøre og optimere navigationsvejene. Gennem arbejdet med User Flows har jeg indset, hvor vigtigt det er at have en struktureret tilgang til projektets design, der sikrer en logisk og intuitiv opbygning af navigationen i platform. At opdele flows i sektioner har også gjort det nemmere at få overblik over brugerrejsen og identificere specifikke områder, hvor brugeroplevelsen kan forbedres.",
       ],
       planForNaesteUge: [
-        "Næste uge planlægger jeg at fokusere på at udvikle mere detaljerede wireframes og begynde at integrere dem i prototyper. Jeg vil fortsætte med at bruge User Flows som grundlag for den interaktive funktionalitet og arbejde på at iterere over designet baseret på feedback. Målet er at skabe en sammenhængende oplevelse, der sikrer, at navigationen gennem applikationen er intuitiv og problemfri.",
+        "Næste uge planlægger jeg at udvikle noget systematik over projektets platform I form af et informationsarkitektur, herunder med artefakter såsom Sitemaps og low-fidelity wireframes. Målet er at skabe et sammenhængende overblik over dele af projektets hjemmeside, der sikrer, at navigationen gennem den er intuitiv og ligetil.",
       ],
       loesteOpgaver: [
         "Lav User Flows for de vigtigste interaktioner i dit projekt. Opret f.eks. flows for registrering, login, booking, og checkout-processen. Sørg for at inkludere alle potentielle interaktionstrin.",
@@ -53,7 +53,7 @@ const weekData = [
     },
     rightSide: {
       viden: [
-        "Gennem arbejdet med User Flows har jeg opnået en dybere forståelse for, hvordan brugerrejser kan visualiseres for at optimere applikationens struktur og navigation, hvilket stemmer overens med målet om at forstå betydningen af User Flows i UX-design. Ved at opdele komplekse flows i logiske sektioner, som f.eks. registrerings- og checkout-processerne, har jeg også kunnet sikre en mere struktureret forståelse af brugerinteraktionerne, der gør det lettere at navigere og planlægge brugeroplevelsen.",
+        "Gennem arbejdet med User Flows har jeg opnået en dybere forståelse for, hvordan brugerrejser kan visualiseres for at optimere applikationens struktur og navigation, hvilket stemmer overens med målet om at forstå betydningen af User Flows i UX-design. Ved at opdele komplekse flows i logiske sektioner, som f.eks. registrerings- og booking-processerne, har jeg også kunnet sikre en mere struktureret forståelse af brugerinteraktionerne, der gør det lettere at navigere og planlægge brugeroplevelsen.",
       ],
       faerdigheder: [
         "I forhold til færdigheder har jeg arbejdet målrettet med Figma og Miro for at skabe og dokumentere User Flows, hvilket har givet mig praktisk erfaring med disse værktøjer til at organisere og gemme flows til senere brug. Disse opgaver har hjulpet mig med at sikre, at alle nødvendige interaktionstrin er inkluderet i de centrale brugerrejser, hvilket styrker mine visuelle og tekniske færdigheder inden for dokumentation.",
