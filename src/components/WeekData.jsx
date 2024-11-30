@@ -1,5 +1,6 @@
 const weekData = [
   {
+    // Uge 1
     week: 33,
     leftSide: {
       oversigt: [
@@ -33,6 +34,7 @@ const weekData = [
     },
   },
   {
+    // Uge 2
     week: 34,
     leftSide: {
       oversigt: [
@@ -64,18 +66,19 @@ const weekData = [
     },
   },
   {
+    // Uge 3
     week: 35,
     leftSide: {
       oversigt: [
-        "I denne uge har jeg fokuseret på opbygningen af en stærk informationsarkitektur til min applikation gennem strukturering af indhold og informationshierarki. Jeg har arbejdet på at udvikle et sitemap, der afspejler appens overordnede struktur og brugernes navigationsrejse. Jeg har også lavet lav-fidelity wireframes, som skal visualisere grundlæggende layout og funktionalitet, hvilket har hjulpet mig med at opnå tidlig feedback på designet.",
+        "I denne uge har jeg fokuseret på opbygningen af en informationsarkitektur til min applikation gennem strukturering af indhold og informationshierarki. Jeg har arbejdet på at udvikle et sitemap, der afspejler appens overordnede struktur og brugernes navigationsrejse. Jeg har også lavet lav-fidelity wireframes, som skal visualisere grundlæggende layout og funktionalitet, hvilket har hjulpet mig med at opnå tidlig feedback på designet.",
         "Jeg har anvendt Figma til både sitemap og wireframes, da det har givet mig fleksibilitet i oprettelsen og hurtig justering baseret på feedback. Udover værktøjerne har jeg læst kapitler fra Information Architecture for the Web and Beyond, der har forstærket min forståelse af informationsarkitektur og wireframing.",
       ],
       udfordringer: [
-        "Jeg stødte på en udfordring i forhold til at skabe en logisk og intuitiv informationsstruktur, som også kan imødekomme applikationens mere komplekse funktioner. Særligt var det udfordrende at sikre, at alle funktioner blev præsenteret på en måde, der var let at finde for brugeren uden at overbelaste layoutet.",
-        "Dette problem blev løst ved at dele brugernes rejse op i tydelige sektioner og evaluere informationshierarkiet på tværs af wireframes. Jeg kunne også ved hjælp af feedback fra teammedlemmer justere sektioner i sitemappet, hvilket har forbedret strukturens klarhed.",
+        "Jeg stødte på en udfordring i forhold til at skabe selve sitemappet, som skulle vise forskellige delsider af vores hjemmeside. Særligt var det udfordrende at sikre, at alle siderne blev præsenteret på en måde, der var let at forstå for brugeren uden at overbelaste dem for mange informationer.",
+        "Dette problem blev løst ved at dele sitemappet i tydelige sektioner og evaluere informationshierarkiet på tværs af wireframes. Jeg kunne også ved hjælp af feedback fra teammedlemmer justere sektioner i sitemappet, hvilket har forbedret strukturen markant og gjort den letforståelig.",
       ],
       refleksion: [
-        "Denne uge har givet mig en dybere forståelse af vigtigheden af et klart informationshierarki og betydningen af brugerrejsen i app-strukturen. Gennem arbejdet med lav-fidelity wireframes har jeg også lært, hvor effektivt disse tidlige skitser er til at indhente brugbare input fra interessenter uden at binde sig til et endeligt design. Jeg har fået indsigt i, hvordan sitemap og wireframes kan tilpasses for at opnå den mest brugervenlige struktur, hvilket har styrket min evne til at skabe brugervenligt design.",
+        "Denne uge har givet mig en dybere forståelse af vigtigheden af et klart informationshierarki og betydningen af brugerrejsen i projekt-strukturen. Gennem arbejdet med lav-fidelity wireframes har jeg også lært, hvor effektivt disse tidlige skitser er til at indhente brugbare input uden at binde sig til et endeligt design. Jeg har fået indsigt i, hvordan sitemap og wireframes kan tilpasses for at opnå den mest brugervenlige struktur, hvilket har styrket min evne til at skabe brugervenligt design.",
       ],
       planForNaesteUge: [
         "Næste uge fokuserer jeg på at skabe en interaktiv prototype i Figma eller Adobe XD, hvor jeg tester forskellen mellem klikbare wireframes og high-fidelity prototyper. Jeg vil eksperimentere med forskellige typer prototyper for at optimere brugerflow og navigationsoplevelse, samtidig med at jeg dokumenterer processen med noter og skærmbilleder. Ydermere vil jeg gennemgå Udemy-kurset Prototyping and Testing with Figma for at styrke mine færdigheder inden for opbygning af interaktive prototyper.",
@@ -95,6 +98,7 @@ const weekData = [
     },
   },
   {
+    // Uge 4
     week: 36,
     leftSide: {
       oversigt: [
@@ -128,6 +132,7 @@ const weekData = [
     },
   },
   {
+    // Uge 5
     week: 37,
     leftSide: {
       oversigt: [
@@ -161,6 +166,7 @@ const weekData = [
     },
   },
   {
+    // Uge 6
     week: 38,
     leftSide: {
       oversigt: [
@@ -192,6 +198,7 @@ const weekData = [
     },
   },
   {
+    // Uge 7
     week: 39,
     leftSide: {
       oversigt: [
@@ -223,6 +230,7 @@ const weekData = [
     },
   },
   {
+    // Uge 8
     week: 40,
     leftSide: {
       oversigt: [
