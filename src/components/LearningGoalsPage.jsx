@@ -29,7 +29,7 @@ export default function LearningGoalsPage() {
     viden: [
       "Viden om praksis og centralt anvendt teori inden for udvikling af moderne, interaktive webapplikationer ved hjælp af React.",
       "Viden om komponentbaseret udvikling og genanvendelighed i React.",
-      "Forståelse for grundlæggende koncepter inden for state management, herunder brugen af hooks og context API.",
+      "Forståelse for grundlæggende koncepter inden for state management, herunder brugen af forskellige typer af hooks som useState eller useEffect.",
       "Viden om økosystemet omkring React, herunder vigtige værktøjer som React Router, Redux og Next.js.",
     ],
     faerdigheder: [
@@ -37,7 +37,7 @@ export default function LearningGoalsPage() {
       "Strukturere og organisere koden i en React-applikation ved hjælp af komponenter, props og state management.",
       "Integrere tredjepartsbiblioteker og API'er i en React-applikation.",
       "Debugge og optimere React-applikationer for ydeevne og brugeroplevelse.",
-      "Anvende værktøjer som Webpack, Babel og ESLint til at opsætte og vedligeholde et professionelt udviklingsmiljø for React-projekter.",
+      "Anvende værktøjer som Vite til at opsætte og vedligeholde et professionelt udviklingsmiljø for React-projekter.",
     ],
     kompetencer: [
       "Deltage i valg af relevante teknologier og biblioteker i forbindelse med udvikling af webapplikationer med React.",
