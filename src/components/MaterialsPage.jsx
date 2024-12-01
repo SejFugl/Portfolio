@@ -150,7 +150,7 @@ function MaterialerPage() {
     <div className="container mx-auto px-6 py-12">
       <div className="flex items-center justify-between mb-8">
         <h1 className="text-3xl font-bold">
-          Materialer - Uge {weekData[currentWeek].week}
+          Materialer - {weekData[currentWeek].week}
         </h1>
         <div className="flex space-x-4">
           <button onClick={prevWeek} className="p-2 bg-gray-200 rounded-full">
