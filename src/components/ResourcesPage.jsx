@@ -24,7 +24,22 @@ const uiuxResources = [
   "Don't Make Me Think af Steve Krug - Kapitel 10 + 12",
 ];
 
-const reactResources = [];
+const reactResources = [
+  "Scrimba - React basics: Static pages",
+  "Scrimba - React basics: Data-Driven React",
+  "Scrimba - React basics: React State",
+  "Scrimba - React basics: Side Effects",
+  "Scrimba - Advanced React: Reusability",
+  "Scrimba - Advanced React: React Router 6",
+  "Scrimba - Responsive Design: Build a Responsive Site",
+  "Scrimba - Responsive Design: Build a Product Splash Page",
+  "Scrimba - Responsive Design: Build a Responsive Layout with CSS Grid",
+  "Page Transitions In React - React Router V6 and Framer Motion Tutorial: https://youtu.be/FdrEjwymzdY?si=nq2TAbWgxxasVX_U",
+  "Smooth Loading Transitions with Framer Motion | AnimateSharedLayout: https://youtu.be/BtsVMvds3P0?si=ksI-_F2ny4ysuAx2",
+  "React Full Course for free ⚛️ (2024): https://youtu.be/CgkZ7MvWUAA?si=N7SiU52rUJUlv1dD",
+  "Figma to React JS: https://youtu.be/Hc5HQZxI0bQ?si=6DwdD00b7PydzUyy",
+  "React Tutorial for Beginners: https://youtu.be/SqcY0GlETPk?si=-RcWKuVsCJBy0TN5",
+];
 
 const bulletPointVariants = {
   hidden: { opacity: 0, x: -20 },
