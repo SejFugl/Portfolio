@@ -41,7 +41,7 @@ import RegisterInteraction from "/src/assets/NewUge_5/RegisterInteraction.mp4";
 
 const weekData = [
   {
-    week: "1 (35)",
+    week: "Sketches, User Flows og Wireframes",
     media: [
       { type: "image", src: SketchBrancher },
       { type: "image", src: SketchFooter },
@@ -71,21 +71,21 @@ const weekData = [
     ],
   },
   {
-    week: "2 (36)",
+    week: "Prototyper",
     media: [
       { type: "video", src: HomepageVideo },
       { type: "video", src: RegisterVideo },
     ],
   },
   {
-    week: "3 (37)",
+    week: "UI/UX Patterns",
     media: [
       { type: "video", src: Hamburger },
       { type: "video", src: CardLayout },
     ],
   },
   {
-    week: "4 (38)",
+    week: "Farver og Typografi",
     media: [
       { type: "image", src: ColorPalette },
       { type: "image", src: InterFont },
@@ -93,7 +93,7 @@ const weekData = [
     ],
   },
   {
-    week: "5 (39)",
+    week: "Microinteractions",
     media: [
       { type: "video", src: AboutInteraction },
       { type: "video", src: ContactInteraction },
