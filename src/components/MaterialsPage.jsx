@@ -32,6 +32,8 @@ import InterFont from "/src/assets/Uge_6/Inter.png";
 import SourceSansProFont from "/src/assets/Uge_6/Source Sans Pro.png";
 import HomepageVideo from "/src/assets/NewUge_2/Homepage.mp4";
 import RegisterVideo from "/src/assets/NewUge_2/Register.mp4";
+import Hamburger from "/src/assets/NewUge_3/Hamburger.mp4";
+import CardLayout from "/src/assets/NewUge_3/CardLayout.mp4";
 
 const weekData = [
   {
@@ -69,6 +71,13 @@ const weekData = [
     media: [
       { type: "video", src: HomepageVideo },
       { type: "video", src: RegisterVideo },
+    ],
+  },
+  {
+    week: "3 (37)",
+    media: [
+      { type: "video", src: Hamburger },
+      { type: "video", src: CardLayout },
     ],
   },
   {
