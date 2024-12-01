@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
 import portrait from "/src/assets/portrait.png";
 
 export default function HomePage() {
@@ -29,10 +29,18 @@ export default function HomePage() {
               <FaLinkedin className="mr-2" /> LinkedIn
             </a>
             <a
+              href="https://youtu.be/gAAvgcBmQ34?si=9o85G3Rxfve6fLgO"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-red-600 text-white px-4 py-2 rounded-md flex items-center hover:bg-red-700 active:bg-red-800 duration-100"
+            >
+              <FaYoutube className="mr-2" /> Produktvideo
+            </a>
+            <a
               href="https://github.com/SejFugl"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gray-800 text-white px-4 py-2 rounded-md flex items-center hover:bg-gray-700 active:bg-gray-600 duration-100"
+              className="bg-gray-700 text-white px-4 py-2 rounded-md flex items-center hover:bg-gray-800 active:bg-gray-900 duration-100"
             >
               <FaGithub className="mr-2" /> GitHub
             </a>
