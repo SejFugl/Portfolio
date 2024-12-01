@@ -161,6 +161,8 @@ function MaterialerPage() {
                 src={item.src}
                 controls
                 className="w-full h-auto rounded-lg shadow-md"
+                autoPlay
+                loop
               />
             )}
           </motion.div>
