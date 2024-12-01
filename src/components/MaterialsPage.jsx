@@ -34,6 +34,10 @@ import HomepageVideo from "/src/assets/NewUge_2/Homepage.mp4";
 import RegisterVideo from "/src/assets/NewUge_2/Register.mp4";
 import Hamburger from "/src/assets/NewUge_3/Hamburger.mp4";
 import CardLayout from "/src/assets/NewUge_3/CardLayout.mp4";
+import AboutInteraction from "/src/assets/NewUge_5/AboutInteraction.mp4";
+import ContactInteraction from "/src/assets/NewUge_5/ContactInteraction.mp4";
+import NavInteraction from "/src/assets/NewUge_5/NavInteraction.mp4";
+import RegisterInteraction from "/src/assets/NewUge_5/RegisterInteraction.mp4";
 
 const weekData = [
   {
@@ -86,6 +90,15 @@ const weekData = [
       { type: "image", src: ColorPalette },
       { type: "image", src: InterFont },
       { type: "image", src: SourceSansProFont },
+    ],
+  },
+  {
+    week: "5 (39)",
+    media: [
+      { type: "video", src: AboutInteraction },
+      { type: "video", src: ContactInteraction },
+      { type: "video", src: NavInteraction },
+      { type: "video", src: RegisterInteraction },
     ],
   },
 ];
