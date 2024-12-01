@@ -38,6 +38,11 @@ import AboutInteraction from "/src/assets/NewUge_5/AboutInteraction.mp4";
 import ContactInteraction from "/src/assets/NewUge_5/ContactInteraction.mp4";
 import NavInteraction from "/src/assets/NewUge_5/NavInteraction.mp4";
 import RegisterInteraction from "/src/assets/NewUge_5/RegisterInteraction.mp4";
+import ResponsiveAbout from "/src/assets/Responsive/ResponsiveAbout - Trim.mp4";
+import ResponsiveCalendar from "/src/assets/Responsive/ResponsiveCalendar - Trim.mp4";
+import ResponsiveFeatures from "/src/assets/Responsive/ResponsiveFeatures - Trim.mp4";
+import ResponsiveHome from "/src/assets/Responsive/ResponsiveHome - Trim.mp4";
+import ResponsiveIndustries from "/src/assets/Responsive/ResponsiveIndustries - Trim.mp4";
 
 const weekData = [
   {
@@ -99,6 +104,16 @@ const weekData = [
       { type: "video", src: ContactInteraction },
       { type: "video", src: NavInteraction },
       { type: "video", src: RegisterInteraction },
+    ],
+  },
+  {
+    week: "Responsive Design",
+    media: [
+      { type: "video", src: ResponsiveAbout },
+      { type: "video", src: ResponsiveCalendar },
+      { type: "video", src: ResponsiveFeatures },
+      { type: "video", src: ResponsiveHome },
+      { type: "video", src: ResponsiveIndustries },
     ],
   },
 ];
