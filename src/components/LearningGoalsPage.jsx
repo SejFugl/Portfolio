@@ -74,13 +74,13 @@ export default function LearningGoalsPage() {
       <h1 className="text-3xl font-bold mb-8">Læringsmål</h1>
       <div className="grid md:grid-cols-2 gap-8">
         <div>
-          <h2 className="text-2xl font-semibold mb-4">React (12 ECTS)</h2>
+          <h2 className="text-2xl font-semibold mb-4">Webudvikling - React (12 ECTS)</h2>
           <Section title="Viden" items={reactGoals.viden} />
           <Section title="Færdigheder" items={reactGoals.faerdigheder} />
           <Section title="Kompetencer" items={reactGoals.kompetencer} />
         </div>
         <div>
-          <h2 className="text-2xl font-semibold mb-4">UI/UX (18 ECTS)</h2>
+          <h2 className="text-2xl font-semibold mb-4">UI/UX Design (18 ECTS)</h2>
           <Section title="Viden" items={uiuxGoals.viden} />
           <Section title="Færdigheder" items={uiuxGoals.faerdigheder} />
           <Section title="Kompetencer" items={uiuxGoals.kompetencer} />
