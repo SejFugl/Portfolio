@@ -42,7 +42,7 @@ const weekData = [
     },
   },
   {
-    // Uge 4
+    // Uge 2
     week: "2 (36)",
     leftSide: {
       oversigt: [
@@ -73,7 +73,7 @@ const weekData = [
     },
   },
   {
-    // Uge 5
+    // Uge 3
     week: "3 (37)",
     leftSide: {
       oversigt: [
@@ -104,7 +104,7 @@ const weekData = [
     },
   },
   {
-    // Uge 6
+    // Uge 4
     week: "4 (38)",
     leftSide: {
       oversigt: [
@@ -133,7 +133,7 @@ const weekData = [
     },
   },
   {
-    // Uge 7
+    // Uge 5
     week: "5 (39)",
     leftSide: {
       oversigt: [
@@ -162,7 +162,7 @@ const weekData = [
     },
   },
   {
-    // Uge 8
+    // Uge 6
     week: "6 (40)",
     leftSide: {
       oversigt: [
@@ -191,6 +191,7 @@ const weekData = [
     },
   },
   {
+    // Uge 7
     week: "7 (41)",
     leftSide: {
       oversigt: [""],
@@ -205,6 +206,7 @@ const weekData = [
     },
   },
   {
+    // Uge 8
     week: "8 (42)",
     leftSide: {
       oversigt: [""],
@@ -219,6 +221,7 @@ const weekData = [
     },
   },
   {
+    // Uge 9
     week: "9 (43)",
     leftSide: {
       oversigt: [""],
@@ -233,6 +236,7 @@ const weekData = [
     },
   },
   {
+    // Uge 10
     week: "10 (44)",
     leftSide: {
       oversigt: [""],
@@ -247,6 +251,7 @@ const weekData = [
     },
   },
   {
+    // Uge 11
     week: "11 (45)",
     leftSide: {
       oversigt: [""],
@@ -261,6 +266,7 @@ const weekData = [
     },
   },
   {
+    // Uge 12
     week: "12 (46)",
     leftSide: {
       oversigt: [""],
