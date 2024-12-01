@@ -1,5 +1,29 @@
 const weekData = [
   {
+    // Opstartsfase
+    week: "Opstartsfase (33-35)",
+    leftSide: {
+      oversigt: [
+        "I de første to uger har mit fokus været på at sætte mig grundigt ind i semesterprojektet og forstå de generelle læringsmål for 4. semester. Jeg har brugt denne tid til at skabe et overblik over, hvad semesteret indebærer, og hvordan mine to valgfag, UI/UX og React, spiller sammen i forhold til projektet. Derudover har jeg arbejdet på at formulere mine egne langsigtede læringsmål, som skal give mig en klar retning og sikre, at jeg får det maksimale ud af semesteret.",
+        "Jeg har planlagt semesteret i grove træk med en opdeling på 6 uger til hvert valgfag. Inden for UI/UX har jeg besluttet at starte med et omfattende kursus på Udemy, der varer omkring 20 timer. Jeg har samtidig arbejdet på at oprette en handlingsplan, der kan justeres undervejs, så jeg kan tilpasse mig, hvis nye behov eller udfordringer opstår.",
+      ],
+      udfordringer: [
+        "En af de største udfordringer har været at definere, hvad jeg konkret gerne vil lære i løbet af semesteret. Jeg har brugt tid på at reflektere over, hvilke færdigheder der vil være mest relevante både for projektet og mine egne læringsmål. For at finde en løsning har jeg undersøgt de krav og mål, der er opstillet for 4. semester, samt søgt inspiration fra tidligere projekter og kursusbeskrivelser.",
+        "En anden udfordring har været at finde en effektiv måde at dokumentere min proces på. Her har jeg planlagt at rådføre mig med mine teammedlemmer og deltage aktivt i semesterets procesmøder for at indsamle idéer og anbefalinger. Jeg vil løbende justere min dokumentationsmetode baseret på feedback og erfaringer.",
+      ],
+      refleksion: [
+        "Disse to uger har været en værdifuld start, hvor jeg har skabt en solid base for resten af semesteret. Jeg har lært, hvor vigtigt det er at have en klar plan og langsigtede mål, men også at være fleksibel nok til at tilpasse sig undervejs.",
+        "Ved at starte med et struktureret kursus i UI/UX føler jeg, at jeg allerede har et stærkt fundament, der vil hjælpe mig med at tackle de kommende udfordringer. Samtidig har refleksionen over læringsmål og dokumentationsstrategi gjort mig mere opmærksom på, hvordan jeg kan forbedre min læringsproces.",
+      ],
+      planForNaesteUge: [],
+    },
+    rightSide: {
+      viden: [],
+      faerdigheder: [],
+      kompetencer: [],
+    },
+  },
+  {
     // Uge 1
     week: "1 (35)",
     leftSide: {
@@ -278,6 +302,27 @@ const weekData = [
       viden: ["", ""],
       faerdigheder: ["", ""],
       kompetencer: [""],
+    },
+  },
+  {
+    // Afviklingsfase
+    week: "Afviklingsfase (46-48)",
+    leftSide: {
+      oversigt: [
+        "Over de 12 uger, som projektet strakte sig over, har jeg gennemført et langt forløb med fokus på både design og implementering. De første seks uger var dedikeret til at udvikle designartefakter gennem mit valgfag UI/UX. I denne periode har jeg udarbejdet detaljerede wireframes, prototyper og designdokumentation, som skulle fungere som fundament for den endelige hjemmeside. De sidste seks uger har jeg brugt på at tilegne mig færdigheder i React fra mit andet valgfag, Webudvikling - React, og herefter implementeret designet som funktionel kode. Teamet og jeg leverede til sidst en hjemmeside med en booking-platform, hvor vi blandt andet anvendte eksterne biblioteker for at sikre funktionalitet.",
+      ],
+      udfordringer: [
+        "En af de største udfordringer i projektet har været at opretholde motivationen og konsistensen i min arbejdsproces. At balancere læring og implementering krævede en høj grad af selvdisciplin, især fordi jeg i dette semester har haft to valgfag med hver deres læringsmål. Jeg oplevede også, at nogle af de oprindelige langsigtede- og kortsigtede læringsmål skulle justeres undervejs I takt med semesterets forløb. Desuden kunne jeg heller ikke formå at udvikle en helt unik kalenderfunktion til booking-platformen. For at løse denne udfordring valgte jeg at bruge et eksternt bibliotek, hvilket gjorde det muligt at levere en funktionel kalender inden for vores deadline. Jeg arbejdede også på at tilpasse kalenderens visuelle udtryk, så det matchede vores oprindelige design så vidt som muligt. Dette kompromis sikrede, at vi stadig kunne levere et produkt, der føltes sammenhængende og professionelt.",
+      ],
+      refleksion: [
+        "Denne 12-ugers periode har givet mig en dybere forståelse af processen fra design til implementering. Jeg har erfaret, hvor vigtigt det er at have en klar handlingsplan, men også at være fleksibel nok til at tilpasse sig uforudsete udfordringer. Samtidig har teamarbejdet givet indsigt i, hvordan man kommunikerer og fordeler opgaver for at sikre, at alle bidrager til det fælles mål. Selvom vi ikke nåede alle vores oprindelige mål, lykkedes det os at skabe en velfungerende hjemmeside, og jeg er stolt af det produkt, vi leverede. Semesteret har uden tvivl styrket mine kompetencer i både UI/UX og React samt mine evner til at arbejde under tidspres og med et skarpt fokus på kvalitet.",
+      ],
+      planForNaesteUge: [],
+    },
+    rightSide: {
+      viden: [],
+      faerdigheder: [],
+      kompetencer: [],
     },
   },
   // Add more weeks as needed
