@@ -309,30 +309,56 @@ const weekData = [
     // Uge 10
     week: "10 (44)",
     leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
+      oversigt: [
+        "Denne uge har jeg fokuseret på at forstå og anvende React Router til at oprette navigation mellem flere sider i en React-applikation. Jeg har arbejdet med at implementere BrowserRouter, Route, Link og Routes-komponenterne for at skabe en simpel, men funktionel navigationsstruktur med sider som Hjem, Om os og Produkter. Jeg har også brugt tid på at forstå forskellen mellem single-page og multi-page navigation og hvordan React Router simulerer flere sider i en single-page applikation.",
+      ],
+      udfordringer: [
+        "En af de største udfordringer var at sikre korrekt opsætning af routes og Link-komponenter, da forkerte URL-stier resulterede i fejl eller manglende rendering af komponenter. For at løse dette brugte jeg tid på at debugge ved at kontrollere de stier, jeg havde defineret i Route-komponenterne, og sikre, at de matchede med Link-komponenternes to-attributter.",
+      ],
+      refleksion: [
+        "Denne uge har givet mig en stærkere forståelse for, hvordan React Router gør det muligt at skabe en mere engagerende brugeroplevelse i en webapplikation. Jeg har opdaget, hvor vigtigt det er at have en veldefineret navigation, ikke kun for at forbedre brugeroplevelsen, men også for at forenkle fremtidige udvidelser af applikationen. Jeg har også reflekteret over, hvordan denne viden kan overføres til større projekter, hvor skalerbarhed og kompleks navigation er højt prioriteret.",
+      ],
+      planForNaesteUge: [
+        "Næste uge vil jeg fokusere på at arbejde med React hooks, især useEffect og useRef, for at håndtere sideeffekter som data-fetching og referencer til DOM-elementer. Jeg vil også lære at oprette mine egne hooks for at genbruge logik i applikationen. Som en del af opgaverne vil jeg implementere en funktion, der henter data fra et C# API og viser disse services i applikationen. Dette vil give mig praktisk erfaring med at kombinere React hooks og API-integration.",
+      ],
     },
     rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
+      viden: [
+        "De kortsigtede læringsmål for ugen har været en retningslinje for mit arbejde, og opgaverne har understøttet disse mål på flere måder. På vidensområdet har jeg opnået en dybere forståelse af, hvordan React Router fungerer, ved at implementere navigering mellem sider som Hjem, Om os og Produkter. Jeg har arbejdet med BrowserRouter, Route, Link og Routes, hvilket har givet mig praktisk indsigt i deres rolle i håndteringen af URL-baseret navigation. Dette har også tydeliggjort forskellen mellem single-page og multi-page navigation.",
+      ],
+      faerdigheder: [
+        "På færdighedsniveau har jeg med succes anvendt React Router til at konfigurere en simpel navigationsstruktur og implementeret Link-komponenter for at skabe intuitive navigationselementer. Jeg har testet og debugget routes for at sikre korrekt funktionalitet uden sideopdateringer, hvilket har forbedret min evne til at løse routing-relaterede udfordringer.",
+      ],
+      kompetencer: [
+        "Endelig har jeg på kompetenceniveau integreret flere sider i applikationen, hvilket har forbedret brugeroplevelsen og skabt en robust navigation, der kan udvides i fremtiden. Jeg har reflekteret kritisk over navigationens opbygning og UX-flow og identificeret områder, hvor yderligere optimering kan implementeres. Alt i alt har ugens opgaver effektivt understøttet læringsmålene og givet mig både teoretisk og praktisk erfaring med React Router.",
+      ],
     },
   },
   {
     // Uge 11
     week: "11 (45)",
     leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
+      oversigt: [
+        "I denne uge har jeg fokuseret på at lære og implementere centrale React-hooks såsom useEffect og useRef. Jeg har arbejdet med at forstå, hvordan useEffect bruges til at håndtere sideeffekter som datahentning, og hvordan useRef kan anvendes til DOM-manipulation. Som en del af ugens opgave implementerede jeg en funktion, der henter service data fra en ekstern API og viser dem i en komponent. Denne proces hjalp mig med at få en dybere forståelse af teori og praksis inden for React-programmering.",
+      ],
+      udfordringer: [
+        "En af de eneste udfordringer for denne uge var, at jeg havde lidt svært ved at forstå, hvornår useRef var det bedste valg i stedet for state. Efter at have gennemgået eksempler på brug af useRef til DOM-manipulation, blev jeg mere fortrolig med forskellen mellem useRef og useState.",
+      ],
+      refleksion: [
+        "Denne uge har været meget lærerig. Jeg har ikke kun fået praktisk erfaring med React-hooks, men også opdaget, hvor stor betydning struktur og planlægning har i kodning. Det har været interessant at arbejde med useEffect og lære, hvordan afhængigheder styrer dens opførsel. Jeg føler mig generelt mere selvsikker i at anvende hooks til både simple og komplekse opgaver.",
+      ],
+      planForNaesteUge: [
+        "Næste uge vil jeg fokusere på styling og responsivt design i React. Jeg vil bruge Tailwind CSS eller Styled Components til at skabe et flot og moderne udseende for mit projekt. Målet er at implementere et responsivt design, der fungerer godt på både desktop og mobile enheder, og sikre mobilvenlige versioner af alle sider i applikationen. Dette vil styrke brugeroplevelsen og give mit projekt et mere professionelt udtryk.",
+      ],
     },
     rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
+      viden: [
+        "Gennem denne uges arbejde har jeg opfyldt de kortsigtede læringsmål på flere niveauer. På vidensniveau har jeg opnået en solid forståelse af, hvordan useEffect anvendes til at håndtere sideeffekter som datahentning, samt hvordan useRef bruges til at referere til DOM-elementer.",
+      ],
+      faerdigheder: [
+        "På færdighedsniveau har jeg implementeret useEffect til at hente data fra en ekstern API og vise produkterne i en React-komponent. Dette gav praktisk erfaring med både API-integration og håndtering af sideeffekter. Derudover har jeg brugt useRef til at manipulere DOM-elementer uden at trigge re-rendering, hvilket gjorde komponenten mere effektiv.",
+      ],
+      kompetencer: [],
     },
   },
   {
