@@ -72,7 +72,7 @@ const weekData = [
     ],
   },
   {
-    week: "66 (366)",
+    week: "4 (38)",
     media: [
       { type: "image", src: ColorPalette },
       { type: "image", src: InterFont },
