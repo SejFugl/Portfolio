@@ -279,15 +279,30 @@ const weekData = [
     // Uge 9
     week: "9 (43)",
     leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
+      oversigt: [
+        "Denne uge har jeg arbejdet intensivt med props, løftning af state, og kontrollerede komponenter i React for at styrke min forståelse af datahåndtering og komponentinteraktion. Mit primære fokus har været at udvikle et par dynamiske kort, hvor brugeren kan se forskellige informationer såsom brancher eller funktioner for vores projekt. Derudover har jeg implementeret noget logik i inputfelterne for login og registrering således, at ændringer I felterne stemmer overens med de login-oplysninger, der sendes videre til vores bagvedliggende system. Jeg har brugt props til at sende data mellem komponenterne og implementeret løftning af state for at centralisere datahåndtering i en forælderkomponent.",
+      ],
+      udfordringer: [
+        "En udfordring var at strukturere flowet af data mellem komponenter på en overskuelig måde, især når det kom til løftning af state og brug af props. For eksempel var det nødvendigt at sikre, at ændringer i inputfelterne blev reflekteret korrekt, når man f.eks. skal logge ind eller registrere sig som bruger. Dette blev løst ved at flytte state til forælderkomponenten og sørge for, at alle underkomponenter fik opdateret data via props.",
+        "En anden udfordring var at skabe kontrollerede komponenter til håndtering af brugerinput. Jeg oplevede problemer med, at inputfeltet ikke altid opdaterede korrekt, men dette blev løst ved at sikre, at værdien i feltet blev bundet til state og opdateret med en onChange-handler.",
+      ],
+      refleksion: [
+        "Denne uge har givet mig en dybere forståelse af, hvordan man skaber genanvendelige og dynamiske komponenter i React. Ved at arbejde med props og løftning af state har jeg lært, hvordan data kan struktureres og deles effektivt på tværs af komponenter, hvilket gør koden mere overskuelig og fleksibel. Implementeringen af kontrollerede komponenter har styrket min forståelse af, hvordan brugerinput kan styres og bruges til at opdatere state dynamisk.",
+      ],
+      planForNaesteUge: [
+        "Næste uge vil jeg fokusere på at implementere navigation i mit projekt ved hjælp af React Router. Jeg planlægger at oprette flere sider, såsom Hjem, Om os og Kontakt, og bruge BrowserRouter, Route, Link, og Routes til at sikre en problemfri navigation mellem disse. Ved at arbejde med React Router satser jeg på at opnå en bedre forståelse af routing og skabe en mere komplet og interaktiv hjemmeside.",
+      ],
     },
     rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
+      viden: [
+        "Gennem implementeringen af de dynamiske kort og inputfelter har jeg styrket min forståelse af, hvordan props kan bruges til at sende data mellem komponenter og skabe genanvendelige brugergrænseflader. Jeg har også arbejdet med løftning af state, hvilket gav mig indsigt i, hvordan man centraliserer state i en forælderkomponent og deler den med underkomponenter. Endelig har jeg anvendt kontrollerede komponenter til at håndtere input og formularer, hvilket har givet mig en bedre forståelse af, hvordan brugerinput styres effektivt.",
+      ],
+      faerdigheder: [
+        "Jeg har brugt props til at dele data mellem komponenter og sikre, at produktlisten opdateres dynamisk baseret på brugerens søgekriterier. Løftning af state har gjort det muligt at opretholde en centraliseret og overskuelig datahåndtering, mens jeg ved hjælp af kontrollerede komponenter har udviklet inputfelter, der reagerer hurtigt og præcist på brugerinput.",
+      ],
+      kompetencer: [
+        "Opgaven med kortene og inputfelterne har hjulpet mig med at strukturere data-flowet mellem komponenter og sikre en effektiv og genanvendelig kodebase. Ved at kombinere props, løftning af state og kontrollerede komponenter har jeg skabt en funktionel og brugervenlig applikation, hvor datahåndtering og interaktivitet fungerer problemfrit.",
+      ],
     },
   },
   {
