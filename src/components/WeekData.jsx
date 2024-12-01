@@ -250,15 +250,29 @@ const weekData = [
     // Uge 8
     week: "8 (42)",
     leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
+      oversigt: [
+        "I denne uge har jeg fokuseret på at opbygge en bedre forståelse af, hvordan useState, event handling og conditional rendering fungerer i React. For at understøtte min læring har jeg gennemgået React's officielle dokumentation om State and Lifecycle, Scrimba-kurset i React og eksperimenteret med praktiske eksempler. Jeg har også undersøgt, hvordan man kan optimere brugeroplevelsen gennem korrekt håndtering af tilstand og dynamisk rendering.",
+      ],
+      udfordringer: [
+        "En udfordring, jeg mødte, var at implementere event handling, især når jeg skulle sikre, at brugerinteraktioner som klik og input blev håndteret korrekt og påvirkede state på en forventet måde. Jeg oplevede eksempelvis problemer med at opdatere state i realtid, men dette blev løst ved at dykke ned i, hvordan React håndterer state-opdateringer asynkront.",
+      ],
+      refleksion: [
+        "Denne uge har givet mig en dybere forståelse af, hvordan React kan bruges til at skabe dynamiske og interaktive brugergrænseflader. Jeg er især blevet opmærksom på, hvor vigtigt det er at strukturere state-logikken korrekt for at undgå uventede fejl i applikationen. Jeg føler mig mere selvsikker i at anvende useState og conditional rendering og kan allerede se, hvordan denne viden kan anvendes i mere komplekse projekter.",
+      ],
+      planForNaesteUge: [
+        "Næste uge vil jeg fokusere på at arbejde med props, løftning af state, og kontrollerede komponenter. Jeg vil bruge props til at eksperimentere med at sende data mellem komponenter, og ved at løfte state op til en forælderkomponent vil jeg sikre, at de data kan deles effektivt mellem komponenterne. Samtidig vil jeg implementere kontrollerede komponenter til at håndtere inputfelter og formularer, så applikationen føles dynamisk og responsiv. Dette arbejde vil bygge videre på mine erfaringer fra denne uge og hjælpe mig med at dykke dybere ned i React's muligheder.",
+      ],
     },
     rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
+      viden: [
+        "Gennem arbejdet med todo-listen har jeg fået en praktisk forståelse af, hvordan useState håndterer tilstanden af komponenter. Jeg har anvendt state til at tilføje og fjerne opgaver samt holde styr på deres status. Desuden har jeg arbejdet med event handling, som f.eks. håndtering af klik på knapper og brugerinput, og set, hvordan dette direkte påvirker komponenternes tilstand.",
+      ],
+      faerdigheder: [
+        "Jeg har med succes implementeret useState til at oprette og vedligeholde tilstanden i todo-listen. Derudover har jeg brugt event handlers som onClick og onChange til at reagere på brugerinteraktioner. Ved hjælp af conditional rendering har jeg skabt en dynamisk oplevelse, hvor data kun vises, når det er relevant, og hvor applikationens layout tilpasses brugerens handlinger.",
+      ],
+      kompetencer: [
+        "Jeg har demonstreret evnen til at opbygge en simpel, men funktionel applikation, hvor brugerens handlinger direkte påvirker visningen og funktionaliteten. Samtidig har jeg evalueret min løsning og foretaget justeringer i koden for at sikre, at state håndteres effektivt, og at applikationen performer optimalt.",
+      ],
     },
   },
   {
