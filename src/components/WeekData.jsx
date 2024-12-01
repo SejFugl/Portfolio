@@ -17,9 +17,6 @@ const weekData = [
       planForNaesteUge: [
         "Næste uge planlægger jeg at dykke ned i udvikling af User-flows, især for login, registrering og booking af en service. Jeg vil fokusere på at drage inspiration fra andre varianter af User-flows for at udvikle en mere brugervenlig og logisk navigation på tværs af alle flows. Jeg vil også begynde at organisere mine dem i Miro, så jeg lettere kan referere til og dele dem med mit team.",
       ],
-      loesteOpgaver: [
-        "Skitsér forskellige layouts til din applikation, herunder flere versioner af forsiden, navigationselementer og centrale UI-komponenter. Fokuser på at generere mange idéer hurtigt uden at være perfektionistisk.",
-      ],
     },
     rightSide: {
       viden: [
@@ -48,9 +45,6 @@ const weekData = [
       ],
       planForNaesteUge: [
         "Næste uge planlægger jeg at udvikle noget systematik over projektets platform I form af et informationsarkitektur, herunder med artefakter såsom Sitemaps og low-fidelity wireframes. Målet er at skabe et sammenhængende overblik over dele af projektets hjemmeside, der sikrer, at navigationen gennem den er intuitiv og ligetil.",
-      ],
-      loesteOpgaver: [
-        "Lav User Flows for de vigtigste interaktioner i dit projekt. Opret f.eks. flows for registrering, login, booking, og checkout-processen. Sørg for at inkludere alle potentielle interaktionstrin.",
       ],
     },
     rightSide: {
@@ -83,7 +77,6 @@ const weekData = [
       planForNaesteUge: [
         "Næste uge fokuserer jeg på at skabe en interaktiv prototype i Figma eller Adobe XD, hvor jeg tester forskellen mellem klikbare wireframes og high-fidelity prototyper. Jeg vil eksperimentere med forskellige typer prototyper for at optimere brugerflow og navigationsoplevelse, samtidig med at jeg dokumenterer processen med noter og skærmbilleder. Ydermere vil jeg gennemgå Udemy-kurset Prototyping and Testing with Figma for at styrke mine færdigheder inden for opbygning af interaktive prototyper.",
       ],
-      loesteOpgaver: ["Lav et sitemap og wireframes til din applikation."],
     },
     rightSide: {
       viden: [
@@ -114,9 +107,6 @@ const weekData = [
       ],
       planForNaesteUge: [
         "Næste uge vil jeg starte med UI Design Patterns og prøve at udplukke nogle designmønstre, som jeg skal implementere i praksis. Jeg vil starte med at undersøge gængse navigations- og interaktionsmønstre og deres betydning for brugeroplevelsen og derefter udvikle nogle prototyper for at eksperimentere. Prototyperne udvikles i Figma eller Framer, og jeg vil dokumentere processen med inspiration fra udvalgte ressourcer, herunder artikler og kurser, for at sikre en systematisk tilgang.",
-      ],
-      loesteOpgaver: [
-        "Opret en interaktiv prototype af dit projekt i Figma eller Adobe XD.",
       ],
     },
     rightSide: {
@@ -149,9 +139,6 @@ const weekData = [
       planForNaesteUge: [
         "Næste uge vil jeg fokusere på at opbygge et grundlæggende designsystem for mit projekt, hvor jeg arbejder med farveteori, typografi og oprettelse af ikoner og billedressourcer. Jeg vil oprette en simpel, men konsistent stilguide, der inkluderer farvepaletter, typografi og standardkomponenter som knapper og formularer. For at holde styr på disse designressourcer vil jeg opbygge et designbibliotek i Figma, som hjælper mig med at strukturere og anvende elementerne effektivt.",
       ],
-      loesteOpgaver: [
-        "Design nogle wireframes eller en prototype til jeres semesterprojekt og implementer 3-5 nøje udvalgte UI design patterns - tag evt. Inspiration fra https://ui-patterns.com/",
-      ],
     },
     rightSide: {
       viden: [
@@ -180,9 +167,6 @@ const weekData = [
       ],
       planForNaesteUge: [
         "Næste uge vil jeg fokusere på at lære de grundlæggende principper for UI-animationer, særligt micro-interactions, for at forbedre brugeroplevelsen gennem små, men effektfulde interaktioner som hover-effekter og transitions. Jeg vil bruge værktøjer som Framer eller Principle til at designe og implementere disse micro-interactions i min prototype og dokumentere dem i Figma eller Framer.",
-      ],
-      loesteOpgaver: [
-        "Opret et simpelt designsystem for dit projekt, inklusive farvepaletter, typografi, og standardkomponenter som knapper og forms.",
       ],
     },
     rightSide: {
@@ -213,9 +197,6 @@ const weekData = [
       planForNaesteUge: [
         "Næste uge vil fokus være på at sikre, at mit design er både tilgængeligt og responsivt. Jeg vil dykke ned i WCAG-retningslinjerne for at forstå kravene til tilgængelighed og anvende disse på mit design, så det er brugervenligt for alle brugere. Derudover vil jeg arbejde med responsive designprincipper, herunder breakpoints, for at sikre, at indholdet fungerer optimalt på forskellige skærmstørrelser. Jeg planlægger at teste mit design med værktøjer som Lighthouse og Wave for at vurdere tilgængelighed og ydeevne og vil anvende ressourcer som kapitel 6 i Don’t Make Me Think og WCAG 2.1 Guidelines til at styrke min forståelse og implementering af tilgængeligheds- og responsivitetselementer i designet.",
       ],
-      loesteOpgaver: [
-        "Design og implementer micro-interactions (f.eks. hover-effekter, transitions) i din prototype.",
-      ],
     },
     rightSide: {
       viden: [
@@ -245,9 +226,6 @@ const weekData = [
       planForNaesteUge: [
         "Starte for alvor på 2. valgfag, Webudvikling - React, for den resterende halvdel af 4. semester",
       ],
-      loesteOpgaver: [
-        "Test og tilpas dit design for at sikre, at det er tilgængeligt og responsivt.",
-      ],
     },
     rightSide: {
       viden: [
@@ -268,7 +246,6 @@ const weekData = [
       udfordringer: [""],
       refleksion: ["", ""],
       planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
     },
     rightSide: {
       viden: ["", ""],
@@ -283,7 +260,6 @@ const weekData = [
       udfordringer: [""],
       refleksion: ["", ""],
       planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
     },
     rightSide: {
       viden: ["", ""],
@@ -298,7 +274,6 @@ const weekData = [
       udfordringer: [""],
       refleksion: ["", ""],
       planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
     },
     rightSide: {
       viden: ["", ""],
@@ -313,7 +288,6 @@ const weekData = [
       udfordringer: [""],
       refleksion: ["", ""],
       planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
     },
     rightSide: {
       viden: ["", ""],
@@ -328,7 +302,6 @@ const weekData = [
       udfordringer: [""],
       refleksion: ["", ""],
       planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
     },
     rightSide: {
       viden: ["", ""],
@@ -343,7 +316,6 @@ const weekData = [
       udfordringer: [""],
       refleksion: ["", ""],
       planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
     },
     rightSide: {
       viden: ["", ""],

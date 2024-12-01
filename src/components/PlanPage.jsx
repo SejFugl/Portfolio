@@ -71,10 +71,6 @@ export default function PlanPage() {
             title="Plan for næste uge"
             items={weekData[currentWeek].leftSide.planForNaesteUge}
           />
-          <Section
-            title="Løste opgaver"
-            items={weekData[currentWeek].leftSide.loesteOpgaver}
-          />
         </div>
         <div className="space-y-6">
           <Section
