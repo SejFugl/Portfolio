@@ -218,15 +218,32 @@ const weekData = [
     // Uge 7
     week: "7 (41)",
     leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
+      oversigt: [
+        "Denne uge har jeg fokuseret på at skabe en solid grundforståelse af opsætning og brug af React som udviklingsværktøj. Jeg har arbejdet med opsætning af et udviklingsmiljø i Visual Studio Code, installeret Node.js og npm samt eksperimenteret med at oprette et simpelt React-projekt ved hjælp af Vite. Desuden har jeg studeret JSX og dens forskelle fra almindelig HTML, samtidig med at jeg har arbejdet med at opdele en brugergrænseflade i komponenter, som er tilpasset ved hjælp af props.",
+        "Jeg brugte ressourcer som React.js-dokumentationen og Scrimba-tutorials, hvilket gav mig en praktisk indføring i konceptet bag komponentbaseret udvikling og genanvendeligheden af UI-komponenter.",
+      ],
+      udfordringer: [
+        "En af de største udfordringer var at forstå forskellene mellem JSX og almindelig HTML. Selvom det umiddelbart virker ens, opdagede jeg, at syntaksen i JSX kræver en dybere forståelse af JavaScript-logik, især når det kommer til indlejring af udtryk. For at løse dette brugte jeg tid på at skrive små, eksperimentelle komponenter for at forstå, hvordan JSX fungerer i praksis.",
+        "En anden udfordring var opsætningen af udviklingsmiljøet, især integrationen mellem Vite og Visual Studio Code. Problemet opstod, da visse afhængigheder manglede, hvilket førte til fejl ved kørsel af projektet. Jeg løste dette ved at læse dokumentationen grundigt og anvende npm til at installere de manglende pakker.",
+      ],
+      refleksion: [
+        "Denne uge har været lærerig, og jeg har opnået en stærkere forståelse for Reacts struktur og arbejdsmetoder. Det var særligt tilfredsstillende at se, hvordan små komponenter kan bygges og genbruges på tværs af applikationen, hvilket gør udviklingsprocessen langt mere modulær og skalerbar. Jeg er også begyndt at værdsætte den fleksibilitet, JSX tilbyder, selvom det kræver tilvænning.",
+        "Jeg har erfaret, at en korrekt opsætning af udviklingsmiljøet er afgørende for et effektivt workflow. Det har også været interessant at lære, hvordan props muliggør dataoverførsel mellem komponenter, hvilket er en kernefunktion i Reacts arkitektur.",
+      ],
+      planForNaesteUge: [
+        "Næste uge vil jeg fokusere på at arbejde med React's state management ved hjælp af useState-hooket for at håndtere komponenttilstand. Jeg vil også dykke ned i eventhåndtering og lære, hvordan brugerinteraktioner som knapklik og input kan integreres i applikationen. Derudover vil jeg undersøge conditional rendering for at vise forskellige komponenter baseret på state.",
+      ],
     },
     rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
+      viden: [
+        "De kortsigtede læringsmål for denne uge har fungeret som en værdifuld ramme for min læring og udvikling. Gennem opsætningen af udviklingsmiljøet i Visual Studio Code med værktøjer som Node.js, npm og Vite har jeg opnået en dybere forståelse af, hvordan man skaber et professionelt workflow til React-udvikling. Dette opfylder målene under Viden om opsætning af et effektivt udviklingsmiljø og konceptet bag komponentbaseret udvikling.",
+      ],
+      faerdigheder: [
+        "Ved at oprette en statisk React-applikation med en header, footer og hovedsektion i JSX har jeg udforsket forskellene mellem JSX og almindelig HTML. Dette har styrket min forståelse af Reacts unikke syntaks og bragt mig tættere på målene under Færdigheder, herunder at skrive og organisere JSX samt bruge funktionelle komponenter. Desuden har jeg anvendt props til at overføre data mellem komponenter, hvilket gav mig praktisk erfaring med en kernefunktion i React.",
+      ],
+      kompetencer: [
+        "Endelig har jeg gennem arbejdet med komponentopdeling og brugen af props opnået en stærkere forståelse for, hvordan genanvendelige UI-komponenter kan struktureres for at skabe en modulær og skalerbar applikation. Dette afspejler målene under Kompetencer, hvor jeg aktivt har arbejdet med at vurdere og implementere en komponentbaseret tilgang til udvikling.",
+      ],
     },
   },
   {
