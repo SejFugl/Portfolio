@@ -33,7 +33,7 @@ import SourceSansProFont from "/src/assets/Uge_6/Source Sans Pro.png";
 
 const weekData = [
   {
-    week: 33,
+    week: "1 (33)",
     images: [
       SketchBrancher,
       SketchFooter,
@@ -47,11 +47,11 @@ const weekData = [
     ],
   },
   {
-    week: 34,
+    week: "2 (34)",
     images: [BookingFlowChart, LoginFlowChart, RegistrationFlowChart],
   },
   {
-    week: 35,
+    week: "3 (35)",
     images: [
       CalendarGammel,
       Hjem,
@@ -69,7 +69,7 @@ const weekData = [
     ],
   },
   {
-    week: 38,
+    week: "6 (38)",
     images: [ColorPalette, InterFont, SourceSansProFont],
   },
 ];
