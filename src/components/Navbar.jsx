@@ -9,9 +9,6 @@ export default function Navbar() {
             Portefølje
           </Link>
           <div className="flex space-x-4">
-            <Link to="/" className="text-gray-700 hover:text-gray-900">
-              Hjem
-            </Link>
             <Link
               to="/learning-goals"
               className="text-gray-700 hover:text-gray-900"
