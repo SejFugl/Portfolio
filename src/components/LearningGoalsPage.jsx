@@ -56,7 +56,7 @@ export default function LearningGoalsPage() {
     ],
     faerdigheder: [
       "Anvende centrale redskaber og metoder til at udvikle brugervenlige grænseflader, herunder designsoftware som Figma, Adobe XD eller Sketch.",
-      "Udføre eksperimenter og analysere resultaterne for at optimere brugeroplevelsen i digitale produkter.",
+      "Udføre eksperimenter og iterere på resultaterne for at optimere brugeroplevelsen i digitale produkter.",
       "Designe og implementere interaktive prototyper, der kan testes og valideres med eksperimentering.",
       "Vurdere og anvende aktuelle UI/UX trends og best practices i design af digitale grænseflader.",
       "Anvende responsivt design for at sikre, at brugeroplevelsen er konsistent på tværs af forskellige enheder og skærmstørrelser.",
