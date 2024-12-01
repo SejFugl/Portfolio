@@ -365,15 +365,29 @@ const weekData = [
     // Uge 12
     week: "12 (46)",
     leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
+      oversigt: [
+        "Denne uge har jeg fokuseret på styling i React og responsivt design. Mit primære mål var at udforske forskellige metoder til styling, herunder Tailwind CSS og Styled Components, og implementere disse i en applikation for at skabe et visuelt tiltalende og responsivt design. Jeg gennemgik dokumentationen for både Tailwind CSS og Styled Components og eksperimenterede med forskellige funktioner. Derudover arbejdede jeg på at gøre alle sider i projektet mobilvenlige og sikre, at designet fungerer optimalt på både desktop og mobile enheder.",
+      ],
+      udfordringer: [
+        "En af de største udfordringer var at vælge mellem Tailwind CSS og Styled Components. Tailwind CSS tilbød hurtig og nem styling med utility-klasser, mens Styled Components gjorde det lettere at arbejde med dynamiske og komponentbaserede designs. For at løse denne udfordring besluttede jeg mig for at anvende begge teknologier i små separate komponenter og evaluere, hvilken metode der bedst opfyldte projektets behov.",
+      ],
+      refleksion: [
+        "Denne uge har været en øjenåbner med hensyn til de mange muligheder for styling i React. Jeg har fået en dybere forståelse af fordelene ved Tailwind CSS i forhold til hastighed og enkelhed og samtidig lært at sætte pris på Styled Components for deres fleksibilitet. Det har også været lærerigt at arbejde med responsivt design, da jeg nu bedre forstår, hvordan man skaber en applikation, der fungerer godt på tværs af forskellige enheder.",
+      ],
+      planForNaesteUge: [
+        "Denne uge har været en øjenåbner med hensyn til de mange muligheder for styling i React. Jeg har fået en dybere forståelse af fordelene ved Tailwind CSS i forhold til hastighed og enkelhed og samtidig lært at sætte pris på Styled Components for deres fleksibilitet. Det har også været lærerigt at arbejde med responsivt design, da jeg nu bedre forstår, hvordan man skaber en applikation, der fungerer godt på tværs af forskellige enheder.",
+      ],
     },
     rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
+      viden: [
+        "Denne uge har jeg arbejdet målrettet med de kortsigtede læringsmål inden for viden, færdigheder og kompetencer. Gennem opgaver som at implementere styling i React med Tailwind CSS og Styled Components har jeg opnået en solid forståelse af forskellige metoder til styling og deres anvendelighed. Jeg har samtidig styrket min viden om responsivt design og mobile-first tilgangen ved aktivt at bruge media queries og fleksible layout-teknikker til at skabe en mobilvenlig brugergrænseflade.",
+      ],
+      faerdigheder: [
+        "På færdighedsniveau har jeg anvendt Tailwind CSS-klasser til effektivt at style komponenter og implementere responsivitet, hvilket har sikret, at applikationen ser flot ud og fungerer optimalt på forskellige enheder. Gennem disse opgaver har jeg også skabt mobilvenlige versioner af sider, hvilket har givet mig praktisk erfaring med design til både desktop og mobile enheder.",
+      ],
+      kompetencer: [
+        "Endelig har jeg udviklet mine kompetencer ved at træffe beslutninger om, hvilken stylingmetode der bedst passer til projektets krav, og ved at evaluere og optimere designets visuelle hierarki for at sikre en intuitiv og æstetisk brugeroplevelse. De opgaver, jeg har udført, har ikke blot opfyldt de opstillede læringsmål, men har også styrket mit fundament for fremtidig udvikling inden for styling og responsivt design i React.",
+      ],
     },
   },
   {
