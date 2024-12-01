@@ -30,47 +30,54 @@ import Sitemap from "/src/assets/Uge_3/Sitemap.png";
 import ColorPalette from "/src/assets/Uge_6/Color Palette.png";
 import InterFont from "/src/assets/Uge_6/Inter.png";
 import SourceSansProFont from "/src/assets/Uge_6/Source Sans Pro.png";
+import HomepageVideo from "/src/assets/NewUge_2/Homepage.mp4";
+import RegisterVideo from "/src/assets/NewUge_2/Register.mp4";
 
 const weekData = [
   {
-    week: "1 (33)",
-    images: [
-      SketchBrancher,
-      SketchFooter,
-      SketchFunktioner,
-      SketchLogud,
-      SketchOmOs,
-      SketchOmOs2,
-      SketchPriser,
-      SketchRegistrering,
-      SketchSogningDato,
+    week: "1 (35)",
+    media: [
+      { type: "image", src: SketchBrancher },
+      { type: "image", src: SketchFooter },
+      { type: "image", src: SketchFunktioner },
+      { type: "image", src: SketchLogud },
+      { type: "image", src: SketchOmOs },
+      { type: "image", src: SketchOmOs2 },
+      { type: "image", src: SketchPriser },
+      { type: "image", src: SketchRegistrering },
+      { type: "image", src: SketchSogningDato },
+      { type: "image", src: BookingFlowChart },
+      { type: "image", src: LoginFlowChart },
+      { type: "image", src: RegistrationFlowChart },
+      { type: "image", src: CalendarGammel },
+      { type: "image", src: Hjem },
+      { type: "image", src: Image2 },
+      { type: "image", src: Login },
+      { type: "image", src: RegisterGammel2 },
+      { type: "image", src: RegisterGammel },
+      { type: "image", src: Register },
+      { type: "image", src: RegistreringBrugerForretning2 },
+      { type: "image", src: RegistreringBrugerForretningGammel2 },
+      { type: "image", src: RegistreringBrugerForretningGammel3 },
+      { type: "image", src: RegistreringBrugerForretningGammel },
+      { type: "image", src: RegistreringBrugerForretning },
+      { type: "image", src: Sitemap },
     ],
   },
   {
-    week: "2 (34)",
-    images: [BookingFlowChart, LoginFlowChart, RegistrationFlowChart],
-  },
-  {
-    week: "3 (35)",
-    images: [
-      CalendarGammel,
-      Hjem,
-      Image2,
-      Login,
-      RegisterGammel2,
-      RegisterGammel,
-      Register,
-      RegistreringBrugerForretning2,
-      RegistreringBrugerForretningGammel2,
-      RegistreringBrugerForretningGammel3,
-      RegistreringBrugerForretningGammel,
-      RegistreringBrugerForretning,
-      Sitemap,
+    week: "2 (36)",
+    media: [
+      { type: "video", src: HomepageVideo },
+      { type: "video", src: RegisterVideo },
     ],
   },
   {
-    week: "6 (38)",
-    images: [ColorPalette, InterFont, SourceSansProFont],
+    week: "66 (366)",
+    media: [
+      { type: "image", src: ColorPalette },
+      { type: "image", src: InterFont },
+      { type: "image", src: SourceSansProFont },
+    ],
   },
 ];
 
@@ -81,16 +88,16 @@ const imageVariants = {
 
 function MaterialerPage() {
   const [currentWeek, setCurrentWeek] = useState(0);
-  const [visibleImages, setVisibleImages] = useState([]);
+  const [visibleMedia, setVisibleMedia] = useState([]);
 
   const nextWeek = () => {
     setCurrentWeek((prev) => (prev + 1) % weekData.length);
-    setVisibleImages([]);
+    setVisibleMedia([]);
   };
 
   const prevWeek = () => {
     setCurrentWeek((prev) => (prev - 1 + weekData.length) % weekData.length);
-    setVisibleImages([]);
+    setVisibleMedia([]);
   };
 
   useEffect(() => {
@@ -98,22 +105,22 @@ function MaterialerPage() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            const imageIndex = parseInt(
+            const mediaIndex = parseInt(
               entry.target.getAttribute("data-index") || "0",
               10
             );
-            setVisibleImages((prev) => [...new Set([...prev, imageIndex])]);
+            setVisibleMedia((prev) => [...new Set([...prev, mediaIndex])]);
           }
         });
       },
       { threshold: 0.1 }
     );
 
-    const imageElements = document.querySelectorAll(".image-container");
-    imageElements.forEach((el) => observer.observe(el));
+    const mediaElements = document.querySelectorAll(".media-container");
+    mediaElements.forEach((el) => observer.observe(el));
 
     return () => {
-      imageElements.forEach((el) => observer.unobserve(el));
+      mediaElements.forEach((el) => observer.unobserve(el));
     };
   }, [currentWeek]);
 
@@ -133,21 +140,29 @@ function MaterialerPage() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {weekData[currentWeek].images.map((src, index) => (
+        {weekData[currentWeek].media.map((item, index) => (
           <motion.div
             key={index}
-            className="image-container"
+            className="media-container"
             data-index={index}
             variants={imageVariants}
             initial="hidden"
-            animate={visibleImages.includes(index) ? "visible" : "hidden"}
+            animate={visibleMedia.includes(index) ? "visible" : "hidden"}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <img
-              src={src}
-              alt={`Week ${weekData[currentWeek].week} - Image ${index + 1}`}
-              className="w-full h-auto rounded-lg shadow-md"
-            />
+            {item.type === "image" ? (
+              <img
+                src={item.src}
+                alt={`Week ${weekData[currentWeek].week} - Media ${index + 1}`}
+                className="w-full h-auto rounded-lg shadow-md"
+              />
+            ) : (
+              <video
+                src={item.src}
+                controls
+                className="w-full h-auto rounded-lg shadow-md"
+              />
+            )}
           </motion.div>
         ))}
       </div>
