@@ -147,7 +147,7 @@ const weekData = [
         "Jeg har også fået en større forståelse for balancen mellem at anvende etablerede mønstre og at tilpasse dem til konteksten, så de passer til brugernes forventninger og behov.",
       ],
       planForNaesteUge: [
-        "Næste uge vil jeg fokusere på at opbygge et grundlæggende designsystem for mit projekt, hvor jeg arbejder med farveteori, typografi og oprettelse af ikoner og billedressourcer. Jeg vil oprette en simpel, men konsistent stilguide, der inkluderer farvepaletter, typografi og standardkomponenter som knapper og formularer. For at holde styr på disse designressourcer vil jeg opbygge et designbibliotek i Figma, som hjælper mig med at strukturere og anvende elementerne effektivt. Jeg vil desuden studere Material Design og Human Interface Guidelines for at få inspiration til designprincipper, samt læse om branding og visuel identitet fra en selvvalgt bog Designing Brand Identity.",
+        "Næste uge vil jeg fokusere på at opbygge et grundlæggende designsystem for mit projekt, hvor jeg arbejder med farveteori, typografi og oprettelse af ikoner og billedressourcer. Jeg vil oprette en simpel, men konsistent stilguide, der inkluderer farvepaletter, typografi og standardkomponenter som knapper og formularer. For at holde styr på disse designressourcer vil jeg opbygge et designbibliotek i Figma, som hjælper mig med at strukturere og anvende elementerne effektivt.",
       ],
       loesteOpgaver: [
         "Design nogle wireframes eller en prototype til jeres semesterprojekt og implementer 3-5 nøje udvalgte UI design patterns - tag evt. Inspiration fra https://ui-patterns.com/",
@@ -170,16 +170,16 @@ const weekData = [
     week: 38,
     leftSide: {
       oversigt: [
-        "I denne uge har jeg fokuseret på at opbygge et fundament i farveteori og typografi samt lære om etablerede designsystemer som Material Design og Human Interface Guidelines. Målet var at skabe et konsistent designsystem, der omfatter farvepaletter, typografi og standardkomponenter som knapper og formularer. Jeg brugte tid på at læse Designing Brand Identity af Alina Wheeler og artikler om Material Design Guidelines og farveteori for designere, hvilket gav mig en grundlæggende forståelse af, hvordan disse elementer kan påvirke brugeroplevelsen.",
+        "I denne uge har jeg fokuseret på at opbygge et fundament i farveteori og typografi. Målet var at skabe et konsistent designsystem, der omfatter farvepaletter, typografi og standardkomponenter som knapper og formularer. Jeg brugte tid på at læse Designing Brand Identity af Alina Wheeler og farveteori for designere, hvilket gav mig en grundlæggende forståelse af, hvordan disse elementer kan påvirke brugeroplevelsen.",
       ],
       udfordringer: [
         "En af de største udfordringer var at anvende farveteori til at skabe en balanceret farvepalet, der både understøtter visuel identitet og differentierer de enkelte elementer i designet. Jeg løste dette ved at anvende primære og sekundære farver samt komplementære farver, hvilket sikrede både kontrast og harmoni. Desuden oplevede jeg udfordringer med at finde passende typografier, der både er læsbare og understøtter det visuelle hierarki. Jeg brugte tid i Figma på at teste forskellige skrifttyper og hierarkier, hvilket hjalp mig med at skabe et klart og læsbart design.",
       ],
       refleksion: [
-        "Denne uge har givet mig en stærkere forståelse af, hvordan farve og typografi kan påvirke brugernes opfattelse af et design. Ved at arbejde med Material Design Guidelines har jeg set, hvordan etablerede systemer kan skabe et ensartet udtryk på tværs af platforme. Desuden har det været værdifuldt at arbejde med Figma, som gjorde det muligt at oprette og dokumentere de designkomponenter, jeg har udviklet. Denne proces har vist mig betydningen af at skabe en sammenhængende og genanvendelig designstruktur, som kan tilpasses forskellige behov.",
+        "Denne uge har givet mig en stærkere forståelse af, hvordan farve og typografi kan påvirke brugernes opfattelse af et design. Ved at eksperimentere med branding som fokusområde og drage inspiration fra andre hjemmesider har jeg fanget, hvordan andre etablerede systemer kan skabe et ensartet udtryk på tværs af platforme. Desuden har det været værdifuldt at arbejde med Figma, som gjorde det muligt at oprette og dokumentere de designkomponenter, jeg har udviklet. Denne proces har vist mig betydningen af at skabe en sammenhængende og genanvendelig designstruktur, som kan tilpasses forskellige behov.",
       ],
       planForNaesteUge: [
-        "Næste uge vil jeg fokusere på at lære de grundlæggende principper for UI-animationer, særligt micro-interactions, for at forbedre brugeroplevelsen gennem små, men effektfulde interaktioner som hover-effekter og transitions. Jeg vil bruge værktøjer som Framer eller Principle til at designe og implementere disse micro-interactions i min prototype og dokumentere dem i Figma eller Framer. For at støtte min læring vil jeg læse Microinteractions: Designing with Details af Dan Saffer og gennemgå artiklen UX Design: Microinteractions – The Secret of Great UX for at forstå, hvordan små detaljer kan have en stor indvirkning på det samlede design.",
+        "Næste uge vil jeg fokusere på at lære de grundlæggende principper for UI-animationer, særligt micro-interactions, for at forbedre brugeroplevelsen gennem små, men effektfulde interaktioner som hover-effekter og transitions. Jeg vil bruge værktøjer som Framer eller Principle til at designe og implementere disse micro-interactions i min prototype og dokumentere dem i Figma eller Framer.",
       ],
       loesteOpgaver: [
         "Opret et simpelt designsystem for dit projekt, inklusive farvepaletter, typografi, og standardkomponenter som knapper og forms.",
@@ -193,7 +193,7 @@ const weekData = [
         "I forhold til Færdigheder har jeg anvendt Figma til at oprette og dokumentere designkomponenter, hvilket har gjort mit design mere struktureret og ensartet. Jeg har oprettet knapper, formularer og UI-elementer, som alle er bygget ud fra farve- og typografivalg, der sikrer en tydelig hierarkisk opbygning og optimal læsbarhed. Denne proces har også gjort det muligt at skabe et fleksibelt system, som kan genbruges på tværs af forskellige sider i projektet, hvilket styrker designets brugervenlighed.",
       ],
       kompetencer: [
-        "Under Kompetencer har jeg arbejdet på at skabe konsistens i farver, typografi og komponenter, hvilket sikrer et sammenhængende visuelt udtryk. Ved at følge Material Design Guidelines har jeg analyseret og anvendt retningslinjer, der understøtter udviklingen af et brugervenligt og visuelt tiltalende designsystem. Derudover har jeg integreret ikoner og billeder i projektet, der både styrker brugeroplevelsen og understøtter brandets visuelle identitet. Dette har været vigtigt for at sikre, at designet ikke blot er funktionelt, men også æstetisk tiltalende og i tråd med brandets værdier og identitet.",
+        "Under Kompetencer har jeg arbejdet på at skabe konsistens i farver, typografi og komponenter, hvilket sikrer et sammenhængende visuelt udtryk. Derudover har jeg integreret ikoner og billeder i projektet, der både styrker brugeroplevelsen og understøtter brandets visuelle identitet. Dette har været vigtigt for at sikre, at designet ikke blot er funktionelt, men også æstetisk tiltalende og i tråd med brandets værdier og identitet.",
       ],
     },
   },
