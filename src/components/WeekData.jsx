@@ -1,7 +1,7 @@
 const weekData = [
   {
     // Uge 1
-    week: 33,
+    week: "1 (33)",
     leftSide: {
       oversigt: [
         "I denne uge har jeg fokuseret på grundlæggende skitseteknikker for UI-design med en særlig vægt på rapid sketching. Gennem opgaverne har jeg eksperimenteret med at skabe forskellige layouts til en applikation, hvilket har inkluderet flere versioner af forsiden, navigationselementer og centrale UI-komponenter. Min tilgang har været at generere idéer hurtigt uden perfektionisme, hvilket har hjulpet mig med at udvikle en bred vifte af designmuligheder.",
@@ -35,7 +35,7 @@ const weekData = [
   },
   {
     // Uge 2
-    week: 34,
+    week: "2 (34)",
     leftSide: {
       oversigt: [
         "I denne uge har jeg primært arbejdet på at udvikle og visualisere User Flows for de centrale interaktioner i mit projekt, såsom registrering, login og booking-processen. Ved hjælp af værktøjer som Figma og Miro har jeg struktureret og illustreret de vigtigste brugerrejser i applikationen, hvilket har givet et klart billede af, hvordan brugerne forventes at navigere. Desuden har jeg opdelt de mere komplekse flows i sektioner, hvilket har hjulpet med at organisere de forskellige trin og interaktioner i projektet.",
@@ -67,7 +67,7 @@ const weekData = [
   },
   {
     // Uge 3
-    week: 35,
+    week: "3 (35)",
     leftSide: {
       oversigt: [
         "I denne uge har jeg fokuseret på opbygningen af en informationsarkitektur til min applikation gennem strukturering af indhold og informationshierarki. Jeg har arbejdet på at udvikle et sitemap, der afspejler appens overordnede struktur og brugernes navigationsrejse. Jeg har også lavet lav-fidelity wireframes, som skal visualisere grundlæggende layout og funktionalitet, hvilket har hjulpet mig med at opnå tidlig feedback på designet.",
@@ -99,7 +99,7 @@ const weekData = [
   },
   {
     // Uge 4
-    week: 36,
+    week: "4 (36)",
     leftSide: {
       oversigt: [
         "I denne uge har mit fokus været på at skabe interaktive prototyper ved hjælp af Figma. Jeg har arbejdet mest med klik-bare wireframes som den primære type af prototype. I processen har jeg opnået en dybere forståelse for, hvordan og hvornår hver type skal anvendes afhængigt af projektets fase og den ønskede brugerinvolvering. Dette gav mig en mere nuanceret viden om, hvordan en prototype kan udvikles fra en simpel, klikbar model, som senere kan blive implementeret, så det afspejler det endelige produkt.",
@@ -133,7 +133,7 @@ const weekData = [
   },
   {
     // Uge 5
-    week: 37,
+    week: "5 (37)",
     leftSide: {
       oversigt: [
         "I denne uge har jeg fokuseret på at forstå og anvende UI design patterns for at skabe konsistens og forbedre brugeroplevelsen i mit projekt. Jeg har lært om forskellige navigations- og interaktionsmønstre, såsom Hamburger-Menu, Clear Primary Actions, Card Layout, og Sticky Navigation. Derudover har jeg arbejdet med wireframes og prototyper i Figma, hvor jeg integrerede mindst tre udvalgte design patterns fra min research. Dette har givet mig en praktisk forståelse af, hvordan disse mønstre kan bruges til at løse specifikke usability-problemer.",
@@ -167,7 +167,7 @@ const weekData = [
   },
   {
     // Uge 6
-    week: 38,
+    week: "6 (38)",
     leftSide: {
       oversigt: [
         "I denne uge har jeg fokuseret på at opbygge et fundament i farveteori og typografi. Målet var at skabe et konsistent designsystem, der omfatter farvepaletter, typografi og standardkomponenter som knapper og formularer. Jeg brugte tid på at læse Designing Brand Identity af Alina Wheeler og farveteori for designere, hvilket gav mig en grundlæggende forståelse af, hvordan disse elementer kan påvirke brugeroplevelsen.",
@@ -199,7 +199,7 @@ const weekData = [
   },
   {
     // Uge 7
-    week: 39,
+    week: "7 (39)",
     leftSide: {
       oversigt: [
         "I denne uge har jeg primært fokuseret på micro-interactions og deres betydning for brugeroplevelsen i UI-design. Jeg har dykket ned i kapitlerne fra Microinteractions: Designing with Details og artiklen Microinteractions: The Secret Sauce of Exceptional UI/UX Design, hvor jeg har lært, hvordan micro-interactions kan forbedre brugeroplevelsen ved at skabe intuitiv navigation, give visuel feedback og tilføre en menneskelig dimension til interfacet. Derudover har jeg anvendt Framer og Principle til at eksperimentere med simple animationer som hover-effekter, transitions og loaders.",
@@ -231,7 +231,7 @@ const weekData = [
   },
   {
     // Uge 8
-    week: 40,
+    week: "8 (40)",
     leftSide: {
       oversigt: [
         "Denne uge har fokuseret på WCAG 2.1-retningslinjerne, responsivt design og brugen af værktøjer til at teste tilgængelighed og performance i webdesign. Forståelsen af WCAG 2.1 retningslinjer blev især styrket ved at arbejde med specifikke krav, som tekstalternativer og visuel kontrast. Derudover har jeg anvendt CSS breakpoints for at sikre, at designet tilpasser sig forskelligt til alle skærmstørrelser. I praksis har jeg testet med Lighthouse og Wave til at evaluere og optimere performance og tilgængelighed af mine prototyper, hvilket gav indsigt i, hvordan mindre ændringer kan forbedre tilgængeligheden væsentligt.",
@@ -262,7 +262,7 @@ const weekData = [
     },
   },
   {
-    week: 41,
+    week: "9 (41)",
     leftSide: {
       oversigt: [""],
       udfordringer: [""],
@@ -277,7 +277,7 @@ const weekData = [
     },
   },
   {
-    week: 42,
+    week: "10 (42)",
     leftSide: {
       oversigt: [""],
       udfordringer: [""],
@@ -292,7 +292,7 @@ const weekData = [
     },
   },
   {
-    week: 43,
+    week: "11 (43)",
     leftSide: {
       oversigt: [""],
       udfordringer: [""],
@@ -307,7 +307,7 @@ const weekData = [
     },
   },
   {
-    week: 44,
+    week: "12 (44)",
     leftSide: {
       oversigt: [""],
       udfordringer: [""],
@@ -322,7 +322,7 @@ const weekData = [
     },
   },
   {
-    week: 45,
+    week: "13 (45)",
     leftSide: {
       oversigt: [""],
       udfordringer: [""],
@@ -337,37 +337,7 @@ const weekData = [
     },
   },
   {
-    week: 46,
-    leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
-    },
-    rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
-    },
-  },
-  {
-    week: 47,
-    leftSide: {
-      oversigt: [""],
-      udfordringer: [""],
-      refleksion: ["", ""],
-      planForNaesteUge: ["", ""],
-      loesteOpgaver: ["", ""],
-    },
-    rightSide: {
-      viden: ["", ""],
-      faerdigheder: ["", ""],
-      kompetencer: [""],
-    },
-  },
-  {
-    week: 48,
+    week: "14 (46)",
     leftSide: {
       oversigt: [""],
       udfordringer: [""],
