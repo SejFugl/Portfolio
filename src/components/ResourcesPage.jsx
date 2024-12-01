@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const resources = [
+const uiuxResources = [
   "Sketching User Experiences af Bill Buxton - Kapitel 9, 13, 14 og 28",
   "Udemy kursus i UI/UX - Section 1: Introduction",
   "Udemy kursus i UI/UX - Section 2: Sketching",
@@ -24,6 +24,8 @@ const resources = [
   "Don't Make Me Think af Steve Krug - Kapitel 10 + 12",
 ];
 
+const reactResources = [];
+
 const bulletPointVariants = {
   hidden: { opacity: 0, x: -20 },
   visible: { opacity: 1, x: 0 },
@@ -31,24 +33,44 @@ const bulletPointVariants = {
 
 export default function ResourcesPage() {
   return (
-    <div className="container mx-auto px-6 py-12">
-      <h1 className="text-3xl font-bold mb-8">Ressourcer</h1>
-      <div className="bg-white p-6 rounded-lg shadow-md">
-        <h2 className="text-2xl font-semibold mb-4">UI/UX Ressourcer</h2>
-        <ul className="list-disc pl-5 space-y-2">
-          {resources.map((resource, index) => (
-            <motion.li
-              key={index}
-              variants={bulletPointVariants}
-              initial="hidden"
-              animate="visible"
-              transition={{ duration: 0.5, delay: index * 0.25 }}
-            >
-              {resource}
-            </motion.li>
-          ))}
-        </ul>
+    <>
+      <div className="container mx-auto px-6 py-12">
+        <h1 className="text-3xl font-bold mb-8">Ressourcer</h1>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-semibold mb-4">UI/UX Ressourcer</h2>
+          <ul className="list-disc pl-5 space-y-2">
+            {uiuxResources.map((resource, index) => (
+              <motion.li
+                key={index}
+                variants={bulletPointVariants}
+                initial="hidden"
+                animate="visible"
+                transition={{ duration: 0.5, delay: index * 0.25 }}
+              >
+                {resource}
+              </motion.li>
+            ))}
+          </ul>
+        </div>
       </div>
-    </div>
+      <div className="container mx-auto px-6">
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-semibold mb-4">React Ressourcer</h2>
+          <ul className="list-disc pl-5 space-y-2">
+            {reactResources.map((resource, index) => (
+              <motion.li
+                key={index}
+                variants={bulletPointVariants}
+                initial="hidden"
+                animate="visible"
+                transition={{ duration: 0.5, delay: index * 0.25 }}
+              >
+                {resource}
+              </motion.li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </>
   );
 }
